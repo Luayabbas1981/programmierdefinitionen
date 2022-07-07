@@ -1,4 +1,4 @@
-# programmierdefinitionen
+# Programmierdefinitionen
 ## HTML „Hypertext Markup Language“ (Keine Pro.. Sprache)
 * Hypertext: text (often with embeds such as images, too) that is organized in order to connect related items.
 * Markup: a style guide for typesetting anything to be printed in hardcopy or soft copy format.
