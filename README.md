@@ -6,4 +6,4 @@
 ### EN
 * HTML, or Hypertext Markup Language, is a markup language for the web that defines the structure of web pages.
 ### DE
-* Sie macht Browsern eine Interpretation und Anzeige sowie das Verknüpfen von Webseiten möglich. Im aktuellen Standard nutzt man XHTML und HTML 5 um insbesondere Suchmaschinen-optimierte und User-orientierte Webseiten mit allen nötigen Elementen zu erstellen.
+* Der Begriff "HTML" steht für "Hypertext Markup Language", auf deutsch "Hypertext-Auszeichnungssprache". Hierbei handelt es sich um das Format, in dem Webseiten geschrieben werden.
