@@ -75,7 +75,7 @@ Regular expressions are patterns used to match character combinations in strings
 ### EN
 
 A single-page application (SPA) is a Web app that is presented to the user through a single HTML page.
-[Learn more...](https://www.techtarget.com/whatis/definition/single-page-application-SPA#:~:text=A%20single%2Dpage%20application%20(SPA,%2Dpage%20interface%20(SPI).))
+[Learn more...](<https://www.techtarget.com/whatis/definition/single-page-application-SPA#:~:text=A%20single%2Dpage%20application%20(SPA,%2Dpage%20interface%20(SPI).)>)
 
 ### DE
 
@@ -111,6 +111,7 @@ Das Browser Object Model (BOM) ist ein mit dem Document Object Model (DOM) verwa
 [Learn more...](https://www.enzyklo.de/Begriff/Browser_Object_Model)
 
 ---
+
 ## 🔸API
 
 ### EN
@@ -120,7 +121,7 @@ API is the acronym for Application Programming Interface, which is a software in
 
 ### DE
 
-Eine API (Application Programming Interface) ist ein Satz von Befehlen, Funktionen, Protokollen und Objekten, die Programmierer verwenden können, um eine Software zu erstellen oder mit einem externen System zu interagieren. 
+Eine API (Application Programming Interface) ist ein Satz von Befehlen, Funktionen, Protokollen und Objekten, die Programmierer verwenden können, um eine Software zu erstellen oder mit einem externen System zu interagieren.
 [Learn more...](https://www.talend.com/de/resources/was-ist-eine-api/#:~:text=%E2%80%93%20Definition,einem%20externen%20System%20zu%20interagieren.)
 
 ---
@@ -136,5 +137,48 @@ Object-oriented refers to a programming language, system or software methodology
 
 Die objektorientierte Programmierung (OOP) ist ein Programmierparadigmus, der auf der Modularisierung von Programmen basiert und sich stark von der klassischen prozeduralen.
 [Learn more...](https://www.itwissen.info/Objektorientierte-Programmierung-object-oriented-programming-OOP.html)
+
+---
+
+## 🔸REACT
+
+### EN
+
+A JavaScript library for building user interfaces.
+[Learn more...](https://reactjs.org/)
+
+### DE
+
+React ist eine JavaScript-Softwarebibliothek, die ein Grundgerüst für die Ausgabe von User-Interface-Komponenten von Webseiten zur Verfügung stellt.
+[Learn more...](https://de.wikipedia.org/wiki/React#:~:text=React%20ist%20eine%20JavaScript%2DSoftwarebibliothek,definierte%20JSX%2DTags%20repr%C3%A4sentiert%20werden.)
+
+---
+
+## 🔸JSX
+
+### EN
+
+It is called JSX, and it is a syntax extension to JavaScript. We recommend using it with React to describe what the UI should look like. JSX may remind you of a template language, but it comes with the full power of JavaScript.
+[Learn more...](https://reactjs.org/docs/introducing-jsx.html)
+
+### DE
+
+JSX steht für Javascript XML oder Javascript Syntax Extension und ist eine Erweiterung der üblichen Javascript-Grammatik für React. XML wird dafür genutzt, Daten intern zu strukturieren und sinnvoll anzuordnen. Für deren Darstellung ist dann HTML zuständig.
+[Learn more...](https://t3n.de/news/eigentlich-jsx-wofuer-das-867296/)
+
+---
+
+## 🔸Components
+
+### EN
+
+Components are independent and reusable bits of code. They serve the same purpose as JavaScript functions, but work in isolation and return HTML.
+
+[Learn more...](https://www.w3schools.com/react/react_components.asp#:~:text=Components%20are%20independent%20and%20reusable,will%20concentrate%20on%20Function%20components.)
+
+### DE
+
+Komponenten erlauben dir deine Benutzeroberfläche in unabhängige, wiederverwendbare Teile aufzubrechen und jeden als isoliert zu betrachten.
+[Learn more...](https://de.reactjs.org/docs/components-and-props.html)
 
 ---
