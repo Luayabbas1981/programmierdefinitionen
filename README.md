@@ -86,12 +86,12 @@ Eine Single Page Application ist eine Web-Anwendung, die in einem Webbrowser arb
 
 ## 🔸DOM
 
-## EN
+### EN
 
 The Document Object Model (DOM) is the data representation of the objects that comprise the structure and content of a document on the web.
 [Learn more...](https://developer.mozilla.org/en-US/docs/Web/API/Document_Object_Model/Introduction)
 
-## DE
+### DE
 
 Das Document Object Model, kurz DOM, macht die Strukturen von HTML- und XML-Dokumenten auf standardisierte Weise für Entwickler zugänglich.
 [Learn more...](https://www.dev-insider.de/was-ist-das-dom-a-1095908/)
@@ -100,22 +100,28 @@ Das Document Object Model, kurz DOM, macht die Strukturen von HTML- und XML-Doku
 
 ## 🔸BOM
 
-## EN
+### EN
 
 The Browser Object Model (BOM) is the core of JavaScript on the web. The BOM provides you with objects that expose the web browser’s functionality.
 [Learn more...](https://www.javascripttutorial.net/javascript-bom/)
 
-## DE
+### DE
 
 Das Browser Object Model (BOM) ist ein mit dem Document Object Model (DOM) verwandtes Objektmodell, welches in Webbrowsern und deren Skriptsprache JavaScript zur Verfügung steht.
 [Learn more...](https://www.enzyklo.de/Begriff/Browser_Object_Model)
 
 ---
+
 ## 🔸OOP
-## EN 
+
+### EN
+
 Object-oriented refers to a programming language, system or software methodology that is built on the concepts of logical objects. It works through the creation, utilization and manipulation of reusable objects to perform a specific task, process or objective.
 [Learn more...](https://www.techopedia.com/definition/3233/object-oriented#:~:text=Object%2Doriented%20refers%20to%20a,specific%20task%2C%20process%20or%20objective.)
-## DE
+
+### DE
+
 Die objektorientierte Programmierung (OOP) ist ein Programmierparadigmus, der auf der Modularisierung von Programmen basiert und sich stark von der klassischen prozeduralen.
 [Learn more...](https://www.itwissen.info/Objektorientierte-Programmierung-object-oriented-programming-OOP.html)
-__________________________________________________________________________________________________
+
+---
