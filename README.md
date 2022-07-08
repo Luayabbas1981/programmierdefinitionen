@@ -139,6 +139,37 @@ Die objektorientierte Programmierung (OOP) ist ein Programmierparadigmus, der au
 [Learn more...](https://www.itwissen.info/Objektorientierte-Programmierung-object-oriented-programming-OOP.html)
 
 ---
+
+## 🔸NodeJs
+
+### EN
+
+js is an open-source, cross-platform JavaScript runtime that can run JavaScript code outside of a web browser.
+
+[Learn more...](https://javascript.plainenglish.io/what-is-node-js-5fe50e4332c8)
+
+### DE
+
+js ist eine plattformübergreifende Open-Source-JavaScript-Laufzeitumgebung, die JavaScript-Code außerhalb eines Webbrowsers ausführen kann.
+[Learn more...](https://www.dev-insider.de/was-ist-nodejs-a-972703/)
+
+---
+
+## 🔸JSON
+
+### EN
+
+JSON, or JavaScript Object Notation, is an open standard format that uses human-readable text to transmit data objects consisting of attribute–value pairs.
+
+[Learn more...](https://www.definitions.net/definition/JSON)
+
+### DE
+
+Die Abkürzung JSON steht für JavaScript Object Notation. Dabei handelt es sich um ein standardisiertes Datenformat für die Codierung von Daten.
+[Learn more...](https://www.datenbanken-verstehen.de/lexikon/json/)
+
+---
+
 ## 🔸Webpack
 
 ### EN
@@ -153,8 +184,6 @@ Webpack (meist geschrieben webpack) ist ein Opensource-JavaScript-Modul-Packer. 
 [Learn more...](https://www.onlinesolutionsgroup.de/blog/glossar/w/webpack/)
 
 ---
-
-
 
 ## 🔸REACT
 
