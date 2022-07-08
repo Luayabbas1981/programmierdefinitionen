@@ -126,6 +126,20 @@ Eine API (Application Programming Interface) ist ein Satz von Befehlen, Funktion
 
 ---
 
+## 🔸AJAX
+
+### EN
+
+(Asynchronous JAvaScript and XML) Using an enhancement in JavaScript that allows Web pages to be more interactive and behave like local applications.
+[Learn more...](https://www.yourdictionary.com/ajax)
+
+### DE
+
+Ajax bzw. AJAX steht als Akronym für „Asynchronous JavaScript and XML“. Die Technologie ermöglicht es, einzelne Teile einer Webseite bei Bedarf asynchron zu laden.
+[Learn more...](https://www.dev-insider.de/was-ist-ajax-a-782233/)
+
+---
+
 ## 🔸OOP
 
 ### EN
@@ -196,6 +210,20 @@ A JavaScript library for building user interfaces.
 
 React ist eine JavaScript-Softwarebibliothek, die ein Grundgerüst für die Ausgabe von User-Interface-Komponenten von Webseiten zur Verfügung stellt.
 [Learn more...](https://de.wikipedia.org/wiki/React#:~:text=React%20ist%20eine%20JavaScript%2DSoftwarebibliothek,definierte%20JSX%2DTags%20repr%C3%A4sentiert%20werden.)
+
+---
+
+## 🔸XML
+
+### EN
+
+Extensible Markup Language (XML) is a markup language and file format for storing, transmitting, and reconstructing arbitrary data.
+[Learn more...](https://www.yourdictionary.com/xml)
+
+### DE
+
+Die Extensible Markup Language – oder kurz XML – bildet die Basis für viele Datenformate, darunter auch die Neudefinition von HTML.
+[Learn more...](https://www.dev-insider.de/was-ist-xml-a-692619/)
 
 ---
 
