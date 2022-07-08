@@ -139,6 +139,22 @@ Die objektorientierte Programmierung (OOP) ist ein Programmierparadigmus, der au
 [Learn more...](https://www.itwissen.info/Objektorientierte-Programmierung-object-oriented-programming-OOP.html)
 
 ---
+## 🔸Webpack
+
+### EN
+
+webpack is a module bundler. Its main purpose is to bundle JavaScript files for usage in a browser.
+
+[Learn more...](https://webpack.js.org/concepts/)
+
+### DE
+
+Webpack (meist geschrieben webpack) ist ein Opensource-JavaScript-Modul-Packer. Die wesentliche Aufgabe besteht darin, JavaScript-Dateien für die Nutzung im Browser zusammenzuführen.
+[Learn more...](https://www.onlinesolutionsgroup.de/blog/glossar/w/webpack/)
+
+---
+
+
 
 ## 🔸REACT
 
@@ -182,18 +198,3 @@ Komponenten erlauben dir deine Benutzeroberfläche in unabhängige, wiederverwen
 [Learn more...](https://de.reactjs.org/docs/components-and-props.html)
 
 ---
-## 🔸WEBPACK
-
-### EN
-
-webpack is a module bundler. Its main purpose is to bundle JavaScript files for usage in a browser.
-
-[Learn more...](https://webpack.js.org/concepts/)
-
-### DE
-
-Webpack (meist geschrieben webpack) ist ein Opensource-JavaScript-Modul-Packer. Die wesentliche Aufgabe besteht darin, JavaScript-Dateien für die Nutzung im Browser zusammenzuführen.
-[Learn more...](https://www.onlinesolutionsgroup.de/blog/glossar/w/webpack/)
-
----
-
