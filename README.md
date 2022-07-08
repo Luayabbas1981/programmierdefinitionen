@@ -3,7 +3,7 @@
 ### EN 
 * A computer terminal is the hardware used to enter, retrieve, and display electronic data.
 ### DE
-Ein Terminal ist ein Endgerät zur Eingabe und Anzeige von Daten.
+* Ein Terminal ist ein Endgerät zur Eingabe und Anzeige von Daten.
 _______________________________________________________________________
 ## HTML „Hypertext Markup Language“ (Keine Pro.. Sprache)
 
