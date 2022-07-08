@@ -8,14 +8,14 @@ _______________________________________________________________________
 ## 🔸HTML 
 
 ### EN
-* HTML, or Hypertext Markup Language, is a markup language for the web that defines the structure of web pages.
+* HTML, or Hypertext Markup Language, is a markup language for the web that defines the structure of web pages.[Learn more](https://www.freecodecamp.org/news/what-is-html-definition-and-meaning/)
 ### DE
-* Der Begriff "HTML" auf deutsch "Hypertext-Auszeichnungssprache". Hierbei handelt es sich um das Format, in dem Webseiten geschrieben werden.
+* Der Begriff "HTML" auf deutsch "Hypertext-Auszeichnungssprache". Hierbei handelt es sich um das Format, in dem Webseiten geschrieben werden. [Learn more](https://praxistipps.chip.de/was-ist-html-verstaendlich-erklaert_40979#:~:text=Der%20Begriff%20%22HTML%22%20steht%20f%C3%BCr,Webseite%20den%20Text%20einer%20Website.)
 _______________________________________________________________________
 ## 🔸CSS
 
 ### EN 
-* Cascading Style Sheets (CSS) is a stylesheet language used to describe the presentation of a document written in HTML or XML 
+* Cascading Style Sheets (CSS) is a stylesheet language used to describe the presentation of a document written in HTML or XML. 
 ### DE 
 * Cascading Style Sheets (CSS) ist eine Programmiersprache, die es Ihnen ermöglicht, das Design von HTML-XML Dokumenten zu bestimmen. 
 ________________________________________________________________________
