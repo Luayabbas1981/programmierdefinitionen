@@ -75,7 +75,7 @@ Regular expressions are patterns used to match character combinations in strings
 ### EN
 
 A single-page application (SPA) is a Web app that is presented to the user through a single HTML page.
-[Learn more...](https://www.techtarget.com/whatis/definition/single-page-application-SPA#:~:text=A%20single%2Dpage%20application%20(SPA,%2Dpage%20interface%20(SPI).)
+[Learn more...](https://www.techtarget.com/whatis/definition/single-page-application-SPA#:~:text=A%20single%2Dpage%20application%20(SPA,%2Dpage%20interface%20(SPI).))
 
 ### DE
 
