@@ -111,6 +111,19 @@ Das Browser Object Model (BOM) ist ein mit dem Document Object Model (DOM) verwa
 [Learn more...](https://www.enzyklo.de/Begriff/Browser_Object_Model)
 
 ---
+## 🔸API
+
+### EN
+
+API is the acronym for Application Programming Interface, which is a software intermediary that allows two applications to talk to each other.
+[Learn more...](https://www.mulesoft.com/resources/api/what-is-an-api)
+
+### DE
+
+Eine API (Application Programming Interface) ist ein Satz von Befehlen, Funktionen, Protokollen und Objekten, die Programmierer verwenden können, um eine Software zu erstellen oder mit einem externen System zu interagieren. 
+[Learn more...](https://www.talend.com/de/resources/was-ist-eine-api/#:~:text=%E2%80%93%20Definition,einem%20externen%20System%20zu%20interagieren.)
+
+---
 
 ## 🔸OOP
 
