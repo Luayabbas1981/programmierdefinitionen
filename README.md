@@ -119,6 +119,12 @@ The Document Object Model (DOM) is the data representation of the objects that c
 Das Document Object Model, kurz DOM, macht die Strukturen von HTML- und XML-Dokumenten auf standardisierte Weise für Entwickler zugänglich.
 [Learn more...](https://www.dev-insider.de/was-ist-das-dom-a-1095908/)
 
+```javascript
+document.getElementById("");
+document.querySelector("");
+document.createElement("");
+```
+
 ---
 
 ## 🔸BOM
@@ -132,6 +138,13 @@ The Browser Object Model (BOM) is the core of JavaScript on the web. The BOM pro
 
 Das Browser Object Model (BOM) ist ein mit dem Document Object Model (DOM) verwandtes Objektmodell, welches in Webbrowsern und deren Skriptsprache JavaScript zur Verfügung steht.
 [Learn more...](https://www.enzyklo.de/Begriff/Browser_Object_Model)
+
+```javascript
+window.localStorge;
+window.location;
+window.alert;
+window.prompt;
+```
 
 ---
 
@@ -237,6 +250,12 @@ Regular expressions are patterns used to match character combinations in strings
 - Reguläre Ausdrücke sind Muster, die eingesetzt werden, um Text auf bestimmte Zeichenkombinationen zu überprüfen.
   [Learn more...](https://developer.mozilla.org/de/docs/Web/JavaScript/Guide/Regular_Expressions)
 
+```javascript
+let nums = "12345678910";
+let numsRe = /[0-2]/g;
+console.log(nums.match(numsRe));
+```
+
 ---
 
 ## 🔸NodeJs
@@ -251,6 +270,10 @@ js is an open-source, cross-platform JavaScript runtime that can run JavaScript 
 
 js ist eine plattformübergreifende Open-Source-JavaScript-Laufzeitumgebung, die JavaScript-Code außerhalb eines Webbrowsers ausführen kann.
 [Learn more...](https://www.dev-insider.de/was-ist-nodejs-a-972703/)
+
+```bash
+npm init
+```
 
 ---
 
@@ -267,6 +290,18 @@ JSON, or JavaScript Object Notation, is an open standard format that uses human-
 Die Abkürzung JSON steht für JavaScript Object Notation. Dabei handelt es sich um ein standardisiertes Datenformat für die Codierung von Daten.
 [Learn more...](https://www.datenbanken-verstehen.de/lexikon/json/)
 
+```javascript
+//JSON Syntax
+{
+  "string": "Lands",
+  "number": 100,
+  "object": { "EN": "London", "DE": "Colonge" },
+  "array": ["HTML", "CSS", "JS"],
+  "boolean": true,
+  "null": null
+}
+```
+
 ---
 
 ## 🔸Webpack
@@ -281,6 +316,20 @@ webpack is a module bundler. Its main purpose is to bundle JavaScript files for 
 
 Webpack (meist geschrieben webpack) ist ein Opensource-JavaScript-Modul-Packer. Die wesentliche Aufgabe besteht darin, JavaScript-Dateien für die Nutzung im Browser zusammenzuführen.
 [Learn more...](https://www.onlinesolutionsgroup.de/blog/glossar/w/webpack/)
+
+```bash
+"scripts": {
+    "build":"webpack",
+    "watch":"watch webpack"
+  }
+"devDependencies": {
+    "webpack": "^5.73.0",
+    "webpack-cli": "^4.10.0"
+  }
+npm install --save-dev webpack webpackcli
+npm run build
+npm run watch
+```
 
 ---
 
@@ -337,6 +386,19 @@ JSX is a syntax extension to JavaScript. We recommend using it with React to des
 
 JSX steht für Javascript XML oder Javascript Syntax Extension und ist eine Erweiterung der üblichen Javascript-Grammatik für React. XML wird dafür genutzt, Daten intern zu strukturieren und sinnvoll anzuordnen. Für deren Darstellung ist dann HTML zuständig.
 [Learn more...](https://t3n.de/news/eigentlich-jsx-wofuer-das-867296/)
+
+```javascript
+function formatName(user) {
+  return user.firstName + " " + user.lastName;
+}
+
+const user = {
+  firstName: "Harper",
+  lastName: "Perez",
+};
+
+const element = <h1>Hallo {formatName(user)}!</h1>;
+```
 
 ---
 
