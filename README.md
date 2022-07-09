@@ -4,14 +4,17 @@
 
 ### EN
 
--  a shell program provides access to an operating system's components. The shell gives users (or other programs) a way to get "inside" the system; the shell defines the boundary between inside and outside.
-  [Learn more...](https://www.techtarget.com/searchdatacenter/definition/bash-Bourne-Again-Shell#:~:text=Bash%20(Bourne%20Again%20Shell)%20is,such%20as%20command%2Dline%20editing.)
-  
+- a shell program provides access to an operating system's components. The shell gives users (or other programs) a way to get "inside" the system; the shell defines the boundary between inside and outside.
+  [Learn more...](<https://www.techtarget.com/searchdatacenter/definition/bash-Bourne-Again-Shell#:~:text=Bash%20(Bourne%20Again%20Shell)%20is,such%20as%20command%2Dline%20editing.>)
 
 ### DE
 
-* Ein Shell-Programm bietet Zugriff auf die Komponenten eines Betriebssystems. Die Shell bietet Benutzern (oder anderen Programmen) eine Möglichkeit, in das System hineinzukommen; die hülle definiert die grenze zwischen innen und außen.
+- Ein Shell-Programm bietet Zugriff auf die Komponenten eines Betriebssystems. Die Shell bietet Benutzern (oder anderen Programmen) eine Möglichkeit, in das System hineinzukommen; die hülle definiert die grenze zwischen innen und außen.
   [Learn more...](https://www.ibm.com/docs/de/aix/7.2?topic=administration-operating-system-shells)
+  ```bash
+  user-150-228sdv:~$ cd Desktop
+  user-150-228sdv-Desktop:~$ mkdir new
+  ```
 
 ---
 
@@ -27,6 +30,11 @@
 - Der Begriff "HTML" auf deutsch "Hypertext-Auszeichnungssprache". Hierbei handelt es sich um das Format, in dem Webseiten geschrieben werden.
   [Learn more...](https://praxistipps.chip.de/was-ist-html-verstaendlich-erklaert_40979#:~:text=Der%20Begriff%20%22HTML%22%20steht%20f%C3%BCr,Webseite%20den%20Text%20einer%20Website.)
 
+  `<body>`
+  `<h1> Hello world`
+  `</h1>`
+  `</body>`
+
 ---
 
 ## 🔸CSS
@@ -40,6 +48,13 @@
 
 - Cascading Style Sheets (CSS) ist eine Programmiersprache, die es Ihnen ermöglicht, das Design von HTML-XML Dokumenten zu bestimmen.
   [Learn more...](https://www.ionos.de/digitalguide/websites/webdesign/was-ist-css/)
+  ```bash
+    h1{
+      color:red;
+      text-align:center;
+      user-select:none;
+    }
+  ```
 
 ---
 
@@ -54,6 +69,11 @@
 
 - JavaScript ist eine Programmiersprache mit der sich komplexe Programme in eine Webseite realisieren lassen. Immer wenn eine Webseite mehr macht als nur statische Informationen anzuzeigen.
   [Learn more...](https://developer.mozilla.org/de/docs/Learn/JavaScript/First_steps/What_is_JavaScript)
+  ```javascript
+  function sum(num1, num2) {
+    return num1 * num2;
+  }
+  ```
 
 ---
 
@@ -69,8 +89,23 @@ A call stack is a mechanism for an interpreter (like the JavaScript interpreter 
 Unter einem Aufrufstapel (englisch call stack, procedure stack) versteht man in der Softwaretechnik und Informatik einen besonders genutzten Stapelspeicher, der zur Laufzeit eines Programms den Zustand der gerade aufgerufenen Unterprogramme enthält.
 [Learn more...](https://hmn.wiki/de/Call_stack)
 
----
+```javascript
+// Lifo - Last in first out
+function one() {
+  console.log("one");
+}
+function two() {
+  one();
+  console.log("two");
+}
+function three() {
+  two();
+  console.log("three");
+}
+three();
+```
 
+---
 
 ## 🔸DOM
 
@@ -99,6 +134,7 @@ Das Browser Object Model (BOM) ist ein mit dem Document Object Model (DOM) verwa
 [Learn more...](https://www.enzyklo.de/Begriff/Browser_Object_Model)
 
 ---
+
 ## 🔸Callback Queue and Event Loop (Fifo)
 
 ### EN
@@ -111,8 +147,21 @@ Callback queue is triggered by event loop process after our stack is empty which
 Die Callback-Warteschlange wird durch einen Ereignisschleifenprozess ausgelöst, nachdem unser Stack leer ist, was bedeutet, dass der Prozess in dieser Warteschlange wartet, bis unser Stack leer ist.
 [Learn more...](https://developer.mozilla.org/de/docs/Web/JavaScript/EventLoop)
 
----
+```javascript
+// Fifo - First in first out
 
+console.log("one");
+setTimeout(() => {
+  console.log("three");
+}, 0);
+setTimeout(() => {
+  console.log("four");
+}, 0);
+
+console.log("two");
+```
+
+---
 
 ## 🔸API
 
@@ -126,8 +175,20 @@ API is the acronym for Application Programming Interface, which is a software in
 Eine API (Application Programming Interface) ist ein Satz von Befehlen, Funktionen, Protokollen und Objekten, die Programmierer verwenden können, um eine Software zu erstellen oder mit einem externen System zu interagieren.
 [Learn more...](https://www.talend.com/de/resources/was-ist-eine-api/#:~:text=%E2%80%93%20Definition,einem%20externen%20System%20zu%20interagieren.)
 
----
+```javascript
+fetch("url").then((res) => {
+  const data = res.JSON();
+  console.log(data);
+});
 
+async function getData() {
+  const res = fetch("url");
+  const data = res.JSON();
+  console.log(data);
+}
+```
+
+---
 
 ## 🔸AJAX
 
@@ -140,6 +201,13 @@ Eine API (Application Programming Interface) ist ein Satz von Befehlen, Funktion
 
 Ajax bzw. AJAX steht als Akronym für „Asynchronous JavaScript and XML“. Die Technologie ermöglicht es, einzelne Teile einer Webseite bei Bedarf asynchron zu laden.
 [Learn more...](https://www.dev-insider.de/was-ist-ajax-a-782233/)
+
+```javascript
+const myRequest = new XMLHttpRequest();
+myRequest.open("GET", "url", true);
+myRequest.send();
+console.log(myRequest);
+```
 
 ---
 
@@ -156,6 +224,7 @@ Die objektorientierte Programmierung (OOP) ist ein Programmierparadigmus, der au
 [Learn more...](https://www.itwissen.info/Objektorientierte-Programmierung-object-oriented-programming-OOP.html)
 
 ---
+
 ## 🔸RegEx
 
 ### EN
@@ -169,7 +238,6 @@ Regular expressions are patterns used to match character combinations in strings
   [Learn more...](https://developer.mozilla.org/de/docs/Web/JavaScript/Guide/Regular_Expressions)
 
 ---
-
 
 ## 🔸NodeJs
 
