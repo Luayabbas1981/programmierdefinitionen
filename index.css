@@ -1,12 +1,19 @@
-h1{
-    color: rgb(77, 140, 154);
+h1 {
+  color: rgb(54, 104, 116);
+  text-align: center;
+  margin-top: 50px;
 }
-h2{
-    color: red;
+h2 {
+  color: red;
 }
-h3{
-    color: #00bcd4;
+h3 {
+  color: #00bcd4;
+  margin-left: 15px;
 }
-a{
-    text-decoration: none;
+a {
+  text-decoration: none;
+}
+hr {
+  height: 2px;
+  background-color: rgb(8, 0, 255);
 }
