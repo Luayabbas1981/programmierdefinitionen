@@ -70,19 +70,6 @@ Unter einem Aufrufstapel (englisch call stack, procedure stack) versteht man in 
 
 ---
 
-## 🔸RegEx
-
-### EN
-
-Regular expressions are patterns used to match character combinations in strings. In JavaScript, regular expressions are also objects.
-[Learn more...](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Guide/Regular_Expressions)
-
-### DE
-
-- Reguläre Ausdrücke sind Muster, die eingesetzt werden, um Text auf bestimmte Zeichenkombinationen zu überprüfen.
-  [Learn more...](https://developer.mozilla.org/de/docs/Web/JavaScript/Guide/Regular_Expressions)
-
----
 
 ## 🔸DOM
 
@@ -167,6 +154,20 @@ Die objektorientierte Programmierung (OOP) ist ein Programmierparadigmus, der au
 [Learn more...](https://www.itwissen.info/Objektorientierte-Programmierung-object-oriented-programming-OOP.html)
 
 ---
+## 🔸RegEx
+
+### EN
+
+Regular expressions are patterns used to match character combinations in strings. In JavaScript, regular expressions are also objects.
+[Learn more...](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Guide/Regular_Expressions)
+
+### DE
+
+- Reguläre Ausdrücke sind Muster, die eingesetzt werden, um Text auf bestimmte Zeichenkombinationen zu überprüfen.
+  [Learn more...](https://developer.mozilla.org/de/docs/Web/JavaScript/Guide/Regular_Expressions)
+
+---
+
 
 ## 🔸NodeJs
 
