@@ -56,6 +56,20 @@
 
 ---
 
+## 🔸Call stack (Lifo)
+
+### EN
+
+A call stack is a mechanism for an interpreter (like the JavaScript interpreter in a web browser) to keep track of its place in a script that calls multiple functions — what function is currently being run and what functions are called from within that function.
+[Learn more...](https://developer.mozilla.org/en-US/docs/Glossary/Call_stack)
+
+### DE
+
+Unter einem Aufrufstapel (englisch call stack, procedure stack) versteht man in der Softwaretechnik und Informatik einen besonders genutzten Stapelspeicher, der zur Laufzeit eines Programms den Zustand der gerade aufgerufenen Unterprogramme enthält.
+[Learn more...](https://hmn.wiki/de/Call_stack)
+
+---
+
 ## 🔸RegEx
 
 ### EN
@@ -109,6 +123,20 @@ API is the acronym for Application Programming Interface, which is a software in
 
 Eine API (Application Programming Interface) ist ein Satz von Befehlen, Funktionen, Protokollen und Objekten, die Programmierer verwenden können, um eine Software zu erstellen oder mit einem externen System zu interagieren.
 [Learn more...](https://www.talend.com/de/resources/was-ist-eine-api/#:~:text=%E2%80%93%20Definition,einem%20externen%20System%20zu%20interagieren.)
+
+---
+
+## 🔸Callback Queue and Event Loop (Fifo)
+
+### EN
+
+Callback queue is triggered by event loop process after our stack is empty which means the process waits in that queue until our stack is empty.
+[Learn more...](https://dillionmegida.com/p/callback-queue-and-event-loop/)
+
+### DE
+
+Die Callback-Warteschlange wird durch einen Ereignisschleifenprozess ausgelöst, nachdem unser Stack leer ist, was bedeutet, dass der Prozess in dieser Warteschlange wartet, bis unser Stack leer ist.
+[Learn more...](https://developer.mozilla.org/de/docs/Web/JavaScript/EventLoop)
 
 ---
 
