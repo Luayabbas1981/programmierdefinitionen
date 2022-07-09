@@ -203,10 +203,10 @@ Ajax bzw. AJAX steht als Akronym für „Asynchronous JavaScript and XML“. Die
 [Learn more...](https://www.dev-insider.de/was-ist-ajax-a-782233/)
 
 ```javascript
-const myRequest = new XMLHttpRequest();
-myRequest.open("GET", "url", true);
-myRequest.send();
-console.log(myRequest);
+const data = new XMLHttpRequest();
+data.open("GET", "url", true);
+data.send();
+console.log(data);
 ```
 
 ---
