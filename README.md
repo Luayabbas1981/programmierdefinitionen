@@ -98,6 +98,20 @@ Das Browser Object Model (BOM) ist ein mit dem Document Object Model (DOM) verwa
 [Learn more...](https://www.enzyklo.de/Begriff/Browser_Object_Model)
 
 ---
+## 🔸Callback Queue and Event Loop (Fifo)
+
+### EN
+
+Callback queue is triggered by event loop process after our stack is empty which means the process waits in that queue until our stack is empty.
+[Learn more...](https://dillionmegida.com/p/callback-queue-and-event-loop/)
+
+### DE
+
+Die Callback-Warteschlange wird durch einen Ereignisschleifenprozess ausgelöst, nachdem unser Stack leer ist, was bedeutet, dass der Prozess in dieser Warteschlange wartet, bis unser Stack leer ist.
+[Learn more...](https://developer.mozilla.org/de/docs/Web/JavaScript/EventLoop)
+
+---
+
 
 ## 🔸API
 
@@ -113,19 +127,6 @@ Eine API (Application Programming Interface) ist ein Satz von Befehlen, Funktion
 
 ---
 
-## 🔸Callback Queue and Event Loop (Fifo)
-
-### EN
-
-Callback queue is triggered by event loop process after our stack is empty which means the process waits in that queue until our stack is empty.
-[Learn more...](https://dillionmegida.com/p/callback-queue-and-event-loop/)
-
-### DE
-
-Die Callback-Warteschlange wird durch einen Ereignisschleifenprozess ausgelöst, nachdem unser Stack leer ist, was bedeutet, dass der Prozess in dieser Warteschlange wartet, bis unser Stack leer ist.
-[Learn more...](https://developer.mozilla.org/de/docs/Web/JavaScript/EventLoop)
-
----
 
 ## 🔸AJAX
 
