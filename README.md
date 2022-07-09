@@ -9,7 +9,7 @@
 
 ### DE
 
--Ein Shell-Programm bietet Zugriff auf die Komponenten eines Betriebssystems. Die Shell bietet Benutzern (oder anderen Programmen) eine Möglichkeit, in das System hineinzukommen; die hülle definiert die grenze zwischen innen und außen.
+* Ein Shell-Programm bietet Zugriff auf die Komponenten eines Betriebssystems. Die Shell bietet Benutzern (oder anderen Programmen) eine Möglichkeit, in das System hineinzukommen; die hülle definiert die grenze zwischen innen und außen.
   [Learn more...](https://www.ibm.com/docs/de/aix/7.2?topic=administration-operating-system-shells)
 
 ---
