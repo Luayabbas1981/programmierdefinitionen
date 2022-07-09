@@ -70,8 +70,6 @@ Regular expressions are patterns used to match character combinations in strings
 
 ---
 
-
-
 ## 🔸DOM
 
 ### EN
@@ -186,6 +184,7 @@ Webpack (meist geschrieben webpack) ist ein Opensource-JavaScript-Modul-Packer. 
 [Learn more...](https://www.onlinesolutionsgroup.de/blog/glossar/w/webpack/)
 
 ---
+
 ## 🔸SPA
 
 ### EN
@@ -199,6 +198,7 @@ Eine Single Page Application ist eine Web-Anwendung, die in einem Webbrowser arb
 [Learn more...](https://www.sana-commerce.com/de/ecommerce-erklaert/was-ist-eine-single-page-application/)
 
 ---
+
 ## 🔸REACT
 
 ### EN
@@ -238,6 +238,20 @@ JSX is a syntax extension to JavaScript. We recommend using it with React to des
 
 JSX steht für Javascript XML oder Javascript Syntax Extension und ist eine Erweiterung der üblichen Javascript-Grammatik für React. XML wird dafür genutzt, Daten intern zu strukturieren und sinnvoll anzuordnen. Für deren Darstellung ist dann HTML zuständig.
 [Learn more...](https://t3n.de/news/eigentlich-jsx-wofuer-das-867296/)
+
+---
+
+## 🔸Virtual DOM
+
+### EN
+
+The virtual DOM (VDOM) is a programming concept where an ideal, or “virtual”, representation of a UI is kept in memory and synced with the “real” DOM by a library such as ReactDOM.
+[Learn more...](https://reactjs.org/docs/faq-internals.html)
+
+### DE
+
+Das virtuelle DOM (VDOM) ist ein Programmierkonzept, bei dem eine ideale oder “virtuelle” Darstellung der Benutzerschnittstelle (UI) im Speicher gehalten und mit dem “echten” DOM mittels einer Bibliothek names ReactDOM synchronisiert wird.
+[Learn more...](https://reactjs.de/artikel/vdom-react/)
 
 ---
 
