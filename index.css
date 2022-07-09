@@ -12,8 +12,9 @@ h3 {
 }
 a {
   text-decoration: none;
+  color: blueviolet;
 }
 hr {
   height: 2px;
-  background-color: rgb(8, 0, 255);
+  background-color: rgb(21, 129, 37);
 }
