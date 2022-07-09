@@ -4,13 +4,13 @@
 
 ### EN
 
-- A computer terminal is the hardware used to enter, retrieve, and display electronic data.
-  [Learn more...](https://www.collinsdictionary.com/dictionary/english/terminal)
+-  a shell program provides access to an operating system's components. The shell gives users (or other programs) a way to get "inside" the system; the shell defines the boundary between inside and outside.
+  [Learn more...](https://www.techtarget.com/searchdatacenter/definition/bash-Bourne-Again-Shell#:~:text=Bash%20(Bourne%20Again%20Shell)%20is,such%20as%20command%2Dline%20editing.)
 
 ### DE
 
-- Ein Terminal ist ein Endgerät zur Eingabe und Anzeige von Daten.
-  [Learn more...](https://www.computerweekly.com/de/definition/Terminal)
+-Ein Shell-Programm bietet Zugriff auf die Komponenten eines Betriebssystems. Die Shell bietet Benutzern (oder anderen Programmen) eine Möglichkeit, in das System hineinzukommen; die hülle definiert die grenze zwischen innen und außen.
+  [Learn more...](https://www.ibm.com/docs/de/aix/7.2?topic=administration-operating-system-shells)
 
 ---
 
