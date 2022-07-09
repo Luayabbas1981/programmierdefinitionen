@@ -327,8 +327,9 @@ Webpack (meist geschrieben webpack) ist ein Opensource-JavaScript-Modul-Packer. 
     "webpack-cli": "^4.10.0"
   }
 npm install --save-dev webpack webpackcli
-npm run build
+npm run build  //or
 npm run watch
+
 ```
 
 ---
