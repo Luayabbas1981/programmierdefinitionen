@@ -30,10 +30,17 @@
 - Der Begriff "HTML" auf deutsch "Hypertext-Auszeichnungssprache". Hierbei handelt es sich um das Format, in dem Webseiten geschrieben werden.
   [Learn more...](https://praxistipps.chip.de/was-ist-html-verstaendlich-erklaert_40979#:~:text=Der%20Begriff%20%22HTML%22%20steht%20f%C3%BCr,Webseite%20den%20Text%20einer%20Website.)
 
-  `<body>`
-  `<h1> Hello world`
-  `</h1>`
-  `</body>`
+ ```bash
+ <html>
+ <head>
+ <body>
+ .
+ .
+ .
+ </body>
+ </head>
+ </html>
+ ```
 
 ---
 
