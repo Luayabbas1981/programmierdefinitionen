@@ -58,7 +58,7 @@ sudo apt-get install nodejs
 ```
 ---
 [Go Up](#programmierdefinitionen)
-## Bun
+## _Bun_
 
 ### EN
 
@@ -80,7 +80,7 @@ curl https://bun.sh/install | bash
 
 ---
 [Go Up](#programmierdefinitionen)
-## HTML
+## _HTML_
 
 ### EN
 
@@ -107,7 +107,7 @@ curl https://bun.sh/install | bash
 
 [Go Up](#programmierdefinitionen)
 
-## CSS
+## _CSS_
 
 ### EN
 
@@ -128,7 +128,7 @@ curl https://bun.sh/install | bash
 ---
 [Go Up](#programmierdefinitionen)
 
-## Javascript
+## _Javascript_
 
 ### EN
 
@@ -149,7 +149,7 @@ curl https://bun.sh/install | bash
 ---
 
 [Go Up](#programmierdefinitionen)
-## OOP
+## _OOP_
 
 ### EN
 
@@ -163,7 +163,7 @@ Die objektorientierte Programmierung (OOP) ist ein Programmierparadigmus, der au
 
 ---
 [Go Up](#programmierdefinitionen)
-## RegEx
+## _RegEx_
 
 ### EN
 
@@ -184,7 +184,7 @@ console.log(num.match(numReg))[("§", "&", "&", "@", "!")]
 ---
 [Go Up](#programmierdefinitionen)
 
-## Call stack (Lifo)
+## _Call stack (Lifo)_
 
 ### EN
 
@@ -218,7 +218,7 @@ three
 ---
 
 [Go Up](#programmierdefinitionen)
-## SPA
+## _SPA_
 
 ### EN
 
@@ -233,7 +233,7 @@ Eine Single Page Application ist eine Web-Anwendung, die in einem Webbrowser arb
 ---
 [Go Up](#programmierdefinitionen)
 
-## DOM
+## _DOM_
 
 ### EN
 
@@ -255,7 +255,7 @@ document.createElement("");
 
 [Go Up](#programmierdefinitionen)
 
-## BOM
+## _BOM_
 
 ### EN
 
@@ -278,7 +278,7 @@ window.prompt;
 
 [Go Up](#programmierdefinitionen)
 
-## Callback Queue and Event Loop (Fifo)
+## _Callback Queue and Event Loop (Fifo)_
 
 ### EN
 
@@ -310,7 +310,7 @@ four
 ```
 ---
 [Go Up](#programmierdefinitionen)
-## API
+## _API_
 
 ### EN
 
@@ -338,7 +338,7 @@ async function getData() {
 
 [Go Up](#programmierdefinitionen)
 
-## AJAX
+## _AJAX_
 
 ### EN
 
@@ -360,7 +360,7 @@ console.log(data);
 
 [Go Up](#programmierdefinitionen)
 
-## OOP
+## _OOP_
 
 ### EN
 
@@ -374,7 +374,7 @@ Die objektorientierte Programmierung (OOP) ist ein Programmierparadigmus, der au
 ---
 [Go up](#programmierdefinitionen)
 
-## RegEx
+## _RegEx_
 
 ### EN
 
@@ -394,7 +394,7 @@ console.log(num.match(numReg))[("§", "&", "&", "@", "!")]
 ---
 [Go up](#programmierdefinitionen)
 
-## NodeJs
+## _NodeJs_
 
 ### EN
 
@@ -420,7 +420,7 @@ sudo apt-get install nodejs
 ---
 [Go up](#programmierdefinitionen)
 
-## Bun
+## _Bun_
 
 ### EN
 
@@ -442,7 +442,7 @@ curl https://bun.sh/install | bash
 ---
 [Go Up](#programmierdefinitionen)
 
-## JSON
+## _JSON_
 
 ### EN
 
@@ -470,7 +470,7 @@ Die Abkürzung JSON steht für JavaScript Object Notation. Dabei handelt es sich
 
 [Go Up](#programmierdefinitionen)
 
-## Webpack
+## _Webpack_
 
 ### EN
 
@@ -499,9 +499,9 @@ npm run watch
 ```
 ---
 [Go Up](#programmierdefinitionen)
-## REACT
 
-## SPA
+
+## _SPA_
 
 ### EN
 
@@ -516,7 +516,7 @@ Eine Single Page Application ist eine Web-Anwendung, die in einem Webbrowser arb
 ---
 [Go Up](#programmierdefinitionen)
 
-## React
+## _React_
 
 ### EN
 
@@ -532,7 +532,7 @@ React ist eine JavaScript-Softwarebibliothek, die ein Grundgerüst für die Ausg
 
 [Go Up](#programmierdefinitionen)
 
-## XML
+## _XML_
 
 ### EN
 
@@ -548,7 +548,7 @@ Die Extensible Markup Language – oder kurz XML – bildet die Basis für viele
 
 [Go Up](#programmierdefinitionen)
 
-## JSX
+## _JSX_
 
 ### EN
 
@@ -576,7 +576,7 @@ const element = <h1>Hallo {formatName(user)}!</h1>;
 
 [Go Up](#programmierdefinitionen)
 
-## Virtual DOM
+## _Virtual DOM_
 
 ### EN
 
@@ -592,7 +592,7 @@ Das virtuelle DOM (VDOM) ist ein Programmierkonzept, bei dem eine ideale oder �
 
 [Go Up](#programmierdefinitionen)
 
-## Components
+## _Components_
 
 ### EN
 
