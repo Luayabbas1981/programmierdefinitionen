@@ -97,12 +97,13 @@ curl https://bun.sh/install | bash
 <head>
 .
 .
+</head>
 <body>
 .
 .
 .
 </body>
-</head>
+
 </html>
 ```
 ---
