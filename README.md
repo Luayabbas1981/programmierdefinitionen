@@ -394,53 +394,7 @@ console.log(num.match(numReg))[("§", "&", "&", "@", "!")]
 ---
 [Go up](#programmierdefinitionen)
 
-## _NodeJs_
 
-### EN
-
-js is an open-source, cross-platform JavaScript runtime that can run JavaScript code outside of a web browser.
-
-[See more...](https://javascript.plainenglish.io/what-is-node-js-5fe50e4332c8)
-
-### DE
-
-js ist eine plattformübergreifende Open-Source-JavaScript-Laufzeitumgebung, die JavaScript-Code außerhalb eines Webbrowsers ausführen kann.
-[See more...](https://www.dev-insider.de/was-ist-nodejs-a-972703/)
-[Nodejs website](https://nodejs.org/en/)
-
-On Ubuntu Terminal
-
-```bash
-node -v
-sudo apt-get install curl
-curl -sL https://deb.nodesource.com/setup_12.x | sudo -E bash -
-sudo apt-get install nodejs
-
-```
----
-[Go up](#programmierdefinitionen)
-
-## _Bun_
-
-### EN
-
-Bun is a modern JavaScript runtime like Node but has more features.
-
-[See more...](https://bun.sh/)
-
-### DE
-
-Bun ist eine moderne JavaScript-Laufzeit wie Node, hat aber mehr Funktionen.
-[See more...](https://www.heise.de/news/Die-neue-JavaScript-Runtime-Bun-fordert-Node-Deno-Co-heraus-7165132.html)
-
-On Ubuntu Terminal
-
-```bash
-curl https://bun.sh/install | bash
-
-```
----
-[Go Up](#programmierdefinitionen)
 
 ## _JSON_
 
