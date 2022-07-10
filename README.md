@@ -360,40 +360,6 @@ console.log(data);
 
 [Go Up](#programmierdefinitionen)
 
-## _OOP_
-
-### EN
-
-Object-oriented refers to a programming language, system or software methodology that is built on the concepts of logical objects. It works through the creation, utilization and manipulation of reusable objects to perform a specific task, process or objective.
-[See more...](https://www.techopedia.com/definition/3233/object-oriented#:~:text=Object%2Doriented%20refers%20to%20a,specific%20task%2C%20process%20or%20objective.)
-
-### DE
-
-Die objektorientierte Programmierung (OOP) ist ein Programmierparadigmus, der auf der Modularisierung von Programmen basiert und sich stark von der klassischen prozeduralen.
-[See more...](https://www.itwissen.info/Objektorientierte-Programmierung-object-oriented-programming-OOP.html)
----
-[Go up](#programmierdefinitionen)
-
-## _RegEx_
-
-### EN
-
-Regular expressions are patterns used to match character combinations in strings. In JavaScript, regular expressions are also objects.
-[See more...](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Guide/Regular_Expressions)
-
-### DE
-
-- Reguläre Ausdrücke sind Muster, die eingesetzt werden, um Text auf bestimmte Zeichenkombinationen zu überprüfen.
-  [See more...](https://developer.mozilla.org/de/docs/Web/JavaScript/Guide/Regular_Expressions)
-
-```javascript
-const num = "01§23&&45@!6789";
-const numReg = /[^0-9]/g;
-console.log(num.match(numReg))[("§", "&", "&", "@", "!")]
-```
----
-[Go up](#programmierdefinitionen)
-
 
 
 ## _JSON_
