@@ -95,6 +95,8 @@ curl https://bun.sh/install | bash
 ```bash
 <html>
 <head>
+.
+.
 <body>
 .
 .
