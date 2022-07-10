@@ -1,23 +1,21 @@
 # Programmierdefinitionen
-## Descrption
-I am of the opinion that programming is not about storing code in your head, it is something to be understood. Or you should understand what you work with and how every signal thing works and what advantages and disadvantages it has so that you can connect the topics with each other and so that you could be more creative. For this reason I have decided to collect all important topics with a short definition as a reference work.
-## Beschreibung
-Ich bin der Meinung, dass die Programmierung kein Code in den Kopf zu speichern ist, sondern etwas zu verstehen ist. bzw soll man verstehen, womit man arbeiten und wie jedes Ding funktioniert und welche Vor-Nachteile es hat, damit man die Themen miteinander verbinden kann und sodass man mehr kreativ sein könnte. Aus diesem Grund habe ich mich entschieden  alle wichtigen Themen mit kurzer Definition  als Nachschlagewerk  zu sammeln.
 
+## Content/Inhalt
+| Module                        | Topic                    |                    |             |                                                                             |                                       |               |               |                     |                 |             |             |                             |                           |
+|-------------------------------|--------------------------|--------------------|-------------|-----------------------------------------------------------------------------|---------------------------------------|---------------|---------------|---------------------|-----------------|-------------|-------------|-----------------------------|---------------------------|
+| BDL (Basic Digital Literacy)  | [Terminal](#terminal)    | [Node.js](#nodejs) |             | [Bun](#bun)                                                                 |                                       |               |               |                     |                 |             |             |                             |                           |
+| UIB (User Interface Basics)   | [HTML](#html)            | [CSS](#css)        |             |                                                                             |                                       |               |               |                     |                 |             |             |                             |                           |
+| PB (Programming Basic)        | [JavaScrpt](#javascript) | [OOP](#oop)        |             | [RegEx](#regex)                                                             | [Call stack (Lifo)](#call-stack-lifo) |               |               |                     |                 |             |             |                             |                           |
+| SPA (Single Page Application) | [SPA](#spa)              | [DOM](#dom)        | [BOM](#bom) | [Callback Queue and Event Loop (Fifo)](#callback-queue-and-event-loop-fifo) | [API](#api)                           | [AJAX](#ajax) | [JSON](#json) | [Webpack](#webpack) | [React](#react) | [XML](#xml) | [JSX](#jsx) | [Virtual DOM](#virtual-dom) | [Components](#components) |
+| Backend                       |                          |                    |             |                                                                             |                                       |               |               |                     |                 |             |             |                             |                           |
 
- | Thema |Thema|Thema|Thema|Thema|Thema|Thema| Thema |Thema
-|:-:| :-: | :-: | :-:|:-:|:-:|:-:| :-: | :-:
-| [Terminal](#terminal) | [HTML](#html) |[CSS](#css)|[Javascript](#javascript)|[Call stack](#call-stack-lifo)|[DOM](#dom)|[BOM](#bom)|[Callback Queue ](#callback-queue-and-event-loop-fifo)|[API](#api)
+**Description**
+I believe that programming is not about just storing a code in mind, it is something to be understood or rather you should understand what you work with and how every signal thing works and what advantages and disadvantages it has so that you can connect the topics with each other and so that you could be more creative. For this reason I have decided to collect all important topics with a short definition as a reference work.
 
-|Thema|Thema | Thema |Thema|Thema|Thema|Thema|Thema|Thema | Thema
-| :-:|:-:| :-: | :-: | :-:|:-:|:-:|:-:|:-:| :-: 
-|[AJAX](#ajax)|[OOP](#oop)|[RegEx](#regex)|[NodeJs](#nodejs)|[Bun](#bun)|[JSON](#json)|[Webpack](#webpack)|[SPA](#spa)|[React](#react)|[XML](#xml)
+**Beschreibung**
+Ich bin der Meinung, dass die Programmierung kein Code in den Kopf zu speichern ist, sondern etwas zu verstehen ist. bzw soll man verstehen, womit man arbeiten und wie jedes Ding funktioniert und welche Vor-Nachteile es hat, damit man die Themen miteinander verbinden kann und sodass man mehr kreativ sein könnte. Aus diesem Grund habe ich mich entschieden  alle wichtigen Themen mit kurzer Definition als Nachschlagewerk zu sammeln.
 
- |Thema|Thema|Thema
-| :-: | :-:|:-:
-|[JSX](#jsx)|[Virtual DOM](#virtual-dom)|[Components](#components) 
-
-## Terminal 
+## Terminal
 
 ### EN
 
@@ -34,8 +32,55 @@ Ich bin der Meinung, dass die Programmierung kein Code in den Kopf zu speichern 
   ```
 
 ---
+[Go Up](#programmierdefinitionen)
+## NodeJs
 
-## HTML 
+### EN
+
+js is an open-source, cross-platform JavaScript runtime that can run JavaScript code outside of a web browser.
+
+[See more...](https://javascript.plainenglish.io/what-is-node-js-5fe50e4332c8)
+
+### DE
+
+js ist eine plattformübergreifende Open-Source-JavaScript-Laufzeitumgebung, die JavaScript-Code außerhalb eines Webbrowsers ausführen kann.
+[See more...](https://www.dev-insider.de/was-ist-nodejs-a-972703/)
+[Nodejs website](https://nodejs.org/en/)
+
+On Ubuntu Terminal
+
+```bash
+node -v
+sudo apt-get install curl
+curl -sL https://deb.nodesource.com/setup_12.x | sudo -E bash -
+sudo apt-get install nodejs
+
+```
+---
+[Go Up](#programmierdefinitionen)
+## Bun
+
+### EN
+
+Bun is a modern JavaScript runtime like Node but has more features.
+
+[See more...](https://bun.sh/)
+
+### DE
+
+Bun ist eine moderne JavaScript-Laufzeit wie Node, hat aber mehr Funktionen.
+[See more...](https://www.heise.de/news/Die-neue-JavaScript-Runtime-Bun-fordert-Node-Deno-Co-heraus-7165132.html)
+
+On Ubuntu Terminal
+
+```bash
+curl https://bun.sh/install | bash
+
+```
+
+---
+[Go Up](#programmierdefinitionen)
+## HTML
 
 ### EN
 
@@ -59,8 +104,9 @@ Ich bin der Meinung, dass die Programmierung kein Code in den Kopf zu speichern 
 </html>
 ```
 ---
-[Go up](#programmierdefinitionen)
 
+[Go Up](#programmierdefinitionen)
+=
 ## CSS
 
 ### EN
@@ -80,7 +126,7 @@ Ich bin der Meinung, dass die Programmierung kein Code in den Kopf zu speichern 
     }
   ```
 ---
-[Go up](#programmierdefinitionen)
+[Go Up](#programmierdefinitionen)
 
 ## Javascript
 
@@ -101,7 +147,42 @@ Ich bin der Meinung, dass die Programmierung kein Code in den Kopf zu speichern 
   6
   ```
 ---
-[Go up](#programmierdefinitionen)
+
+[Go Up](#programmierdefinitionen)
+## OOP
+
+### EN
+
+Object-oriented-programmig refers to a programming language, system or software methodology that is built on the concepts of logical objects. It works through the creation, utilization and manipulation of reusable objects to perform a specific task, process or objective.
+[See more...](https://www.techopedia.com/definition/3233/object-oriented#:~:text=Object%2Doriented%20refers%20to%20a,specific%20task%2C%20process%20or%20objective.)
+
+### DE
+
+Die objektorientierte Programmierung (OOP) ist ein Programmierparadigmus, der auf der Modularisierung von Programmen basiert und sich stark von der klassischen prozeduralen.
+[See more...](https://www.itwissen.info/Objektorientierte-Programmierung-object-oriented-programming-OOP.html)
+
+---
+[Go Up](#programmierdefinitionen)
+## RegEx
+
+### EN
+
+Regular expressions are patterns used to match character combinations in strings. In JavaScript, regular expressions are also objects.
+[See more...](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Guide/Regular_Expressions)
+
+### DE
+
+- Reguläre Ausdrücke sind Muster, die eingesetzt werden, um Text auf bestimmte Zeichenkombinationen zu überprüfen.
+  [See more...](https://developer.mozilla.org/de/docs/Web/JavaScript/Guide/Regular_Expressions)
+
+```javascript
+const num = "01§23&&45@!6789";
+const numReg = /[^0-9]/g;
+console.log(num.match(numReg))[("§", "&", "&", "@", "!")]
+```
+
+---
+[Go Up](#programmierdefinitionen)
 
 ## Call stack (Lifo)
 
@@ -135,7 +216,22 @@ two
 three
 ```
 ---
-[Go up](#programmierdefinitionen)
+
+[Go Up](#programmierdefinitionen)
+## SPA
+
+### EN
+
+A single-page application (SPA) is a Web app that is presented to the user through a single HTML page.
+[See more...](<https://www.techtarget.com/whatis/definition/single-page-application-SPA#:~:text=A%20single%2Dpage%20application%20(SPA,%2Dpage%20interface%20(SPI).)>)
+
+### DE
+
+Eine Single Page Application ist eine Web-Anwendung, die in einem Webbrowser arbeitet und bei der der Website-Besucher die Webseite nicht neu laden muss.
+[See more...](https://www.sana-commerce.com/de/ecommerce-erklaert/was-ist-eine-single-page-application/)
+
+---
+[Go Up](#programmierdefinitionen)
 
 ## DOM
 
@@ -156,7 +252,8 @@ document.querySelector("");
 document.createElement("");
 ```
 ---
-[Go up](#programmierdefinitionen)
+
+[Go Up](#programmierdefinitionen)
 
 ## BOM
 
@@ -178,7 +275,8 @@ window.alert;
 window.prompt;
 ```
 ---
-[Go up](#programmierdefinitionen)
+
+[Go Up](#programmierdefinitionen)
 
 ## Callback Queue and Event Loop (Fifo)
 
@@ -211,8 +309,7 @@ three
 four
 ```
 ---
-[Go up](#programmierdefinitionen)
-
+[Go Up](#programmierdefinitionen)
 ## API
 
 ### EN
@@ -238,7 +335,8 @@ async function getData() {
 }
 ```
 ---
-[Go up](#programmierdefinitionen)
+
+[Go Up](#programmierdefinitionen)
 
 ## AJAX
 
@@ -259,7 +357,8 @@ data.send();
 console.log(data);
 ```
 ---
-[Go up](#programmierdefinitionen)
+
+[Go Up](#programmierdefinitionen)
 
 ## OOP
 
@@ -341,7 +440,7 @@ curl https://bun.sh/install | bash
 
 ```
 ---
-[Go up](#programmierdefinitionen)
+[Go Up](#programmierdefinitionen)
 
 ## JSON
 
@@ -368,7 +467,8 @@ Die Abkürzung JSON steht für JavaScript Object Notation. Dabei handelt es sich
 }
 ```
 ---
-[Go up](#programmierdefinitionen)
+
+[Go Up](#programmierdefinitionen)
 
 ## Webpack
 
@@ -398,7 +498,8 @@ npm run watch
 
 ```
 ---
-[Go up](#programmierdefinitionen)
+[Go Up](#programmierdefinitionen)
+## REACT
 
 ## SPA
 
@@ -413,7 +514,7 @@ Eine Single Page Application ist eine Web-Anwendung, die in einem Webbrowser arb
 [See more...](https://www.sana-commerce.com/de/ecommerce-erklaert/was-ist-eine-single-page-application/)
 
 ---
-[Go up](#programmierdefinitionen)
+[Go Up](#programmierdefinitionen)
 
 ## React
 
@@ -428,7 +529,8 @@ React ist eine JavaScript-Softwarebibliothek, die ein Grundgerüst für die Ausg
 [See more...](https://de.wikipedia.org/wiki/React#:~:text=React%20ist%20eine%20JavaScript%2DSoftwarebibliothek,definierte%20JSX%2DTags%20repr%C3%A4sentiert%20werden.)
 
 ---
-[Go up](#programmierdefinitionen)
+
+[Go Up](#programmierdefinitionen)
 
 ## XML
 
@@ -443,7 +545,8 @@ Die Extensible Markup Language – oder kurz XML – bildet die Basis für viele
 [See more...](https://www.dev-insider.de/was-ist-xml-a-692619/)
 
 ---
-[Go up](#programmierdefinitionen)
+
+[Go Up](#programmierdefinitionen)
 
 ## JSX
 
@@ -470,7 +573,8 @@ const user = {
 const element = <h1>Hallo {formatName(user)}!</h1>;
 ```
 ---
-[Go up](#programmierdefinitionen)
+
+[Go Up](#programmierdefinitionen)
 
 ## Virtual DOM
 
@@ -485,7 +589,8 @@ Das virtuelle DOM (VDOM) ist ein Programmierkonzept, bei dem eine ideale oder �
 [See more...](https://reactjs.de/artikel/vdom-react/)
 
 ---
-[Go up](#programmierdefinitionen)
+
+[Go Up](#programmierdefinitionen)
 
 ## Components
 
@@ -502,4 +607,5 @@ Komponenten erlauben dir deine Benutzeroberfläche in unabhängige, wiederverwen
 
 ---
 
-[Go up](#programmierdefinitionen)
+[Go Up](#programmierdefinitionen)
+
