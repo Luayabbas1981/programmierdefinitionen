@@ -421,20 +421,6 @@ npm run watch
 [Go Up](#programmierdefinitionen)
 
 
-## _SPA_
-
-### EN
-
-A single-page application (SPA) is a Web app that is presented to the user through a single HTML page.
-[See more...](<https://www.techtarget.com/whatis/definition/single-page-application-SPA#:~:text=A%20single%2Dpage%20application%20(SPA,%2Dpage%20interface%20(SPI).)>)
-
-### DE
-
-Eine Single Page Application ist eine Web-Anwendung, die in einem Webbrowser arbeitet und bei der der Website-Besucher die Webseite nicht neu laden muss.
-[See more...](https://www.sana-commerce.com/de/ecommerce-erklaert/was-ist-eine-single-page-application/)
-
----
-[Go Up](#programmierdefinitionen)
 
 ## _React_
 
