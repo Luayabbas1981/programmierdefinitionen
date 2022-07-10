@@ -50,8 +50,8 @@ Ich bin der Meinung, dass die Programmierung kein Code in den Kopf zu speichern 
 </head>
 </html>
 ```
-[Go up](#beschreibung)
 ---
+[Go up](#programmierdefinitionen)
 
 ## CSS
 
@@ -71,8 +71,8 @@ Ich bin der Meinung, dass die Programmierung kein Code in den Kopf zu speichern 
       user-select:none;
     }
   ```
-[Go up](#beschreibung)
 ---
+[Go up](#programmierdefinitionen)
 
 ## Javascript
 
@@ -92,8 +92,8 @@ Ich bin der Meinung, dass die Programmierung kein Code in den Kopf zu speichern 
   console.log(sum(2, 3));
   6
   ```
-[Go up](#beschreibung)
 ---
+[Go up](#programmierdefinitionen)
 
 ## Call stack (Lifo)
 
@@ -126,8 +126,8 @@ one
 two
 three
 ```
-[Go up](#beschreibung)
 ---
+[Go up](#programmierdefinitionen)
 
 ## DOM
 
@@ -147,8 +147,8 @@ document.getElementById("");
 document.querySelector("");
 document.createElement("");
 ```
-[Go up](#beschreibung)
 ---
+[Go up](#programmierdefinitionen)
 
 ## BOM
 
@@ -169,8 +169,8 @@ window.location;
 window.alert;
 window.prompt;
 ```
-[Go up](#beschreibung)
 ---
+[Go up](#programmierdefinitionen)
 
 ## Callback Queue and Event Loop (Fifo)
 
@@ -202,8 +202,8 @@ two
 three
 four
 ```
-[Go up](#beschreibung)
 ---
+[Go up](#programmierdefinitionen)
 
 ## API
 
@@ -229,8 +229,8 @@ async function getData() {
   console.log(data);
 }
 ```
-[Go up](#beschreibung)
 ---
+[Go up](#programmierdefinitionen)
 
 ## AJAX
 
@@ -250,8 +250,8 @@ data.open("GET", "url", true);
 data.send();
 console.log(data);
 ```
-[Go up](#beschreibung)
 ---
+[Go up](#programmierdefinitionen)
 
 ## OOP
 
@@ -264,8 +264,8 @@ Object-oriented refers to a programming language, system or software methodology
 
 Die objektorientierte Programmierung (OOP) ist ein Programmierparadigmus, der auf der Modularisierung von Programmen basiert und sich stark von der klassischen prozeduralen.
 [See more...](https://www.itwissen.info/Objektorientierte-Programmierung-object-oriented-programming-OOP.html)
-[Go up](#beschreibung)
 ---
+[Go up](#programmierdefinitionen)
 
 ## RegEx
 
@@ -284,8 +284,8 @@ const num = "01§23&&45@!6789";
 const numReg = /[^0-9]/g;
 console.log(num.match(numReg))[("§", "&", "&", "@", "!")]
 ```
-[Go up](#beschreibung)
 ---
+[Go up](#programmierdefinitionen)
 
 ## NodeJs
 
@@ -310,8 +310,8 @@ curl -sL https://deb.nodesource.com/setup_12.x | sudo -E bash -
 sudo apt-get install nodejs
 
 ```
-[Go up](#beschreibung)
 ---
+[Go up](#programmierdefinitionen)
 
 ## Bun
 
@@ -332,8 +332,8 @@ On Ubuntu Terminal
 curl https://bun.sh/install | bash
 
 ```
-[Go up](#beschreibung)
 ---
+[Go up](#programmierdefinitionen)
 
 ## JSON
 
@@ -359,8 +359,8 @@ Die Abkürzung JSON steht für JavaScript Object Notation. Dabei handelt es sich
   "null": null
 }
 ```
-[Go up](#beschreibung)
 ---
+[Go up](#programmierdefinitionen)
 
 ## Webpack
 
@@ -389,8 +389,8 @@ npm run build  //or
 npm run watch
 
 ```
-[Go up](#beschreibung)
 ---
+[Go up](#programmierdefinitionen)
 
 ## SPA
 
@@ -403,9 +403,9 @@ A single-page application (SPA) is a Web app that is presented to the user throu
 
 Eine Single Page Application ist eine Web-Anwendung, die in einem Webbrowser arbeitet und bei der der Website-Besucher die Webseite nicht neu laden muss.
 [See more...](https://www.sana-commerce.com/de/ecommerce-erklaert/was-ist-eine-single-page-application/)
-[Go up](#beschreibung)
 
 ---
+[Go up](#programmierdefinitionen)
 
 ## React
 
@@ -418,9 +418,9 @@ A JavaScript library for building user interfaces.
 
 React ist eine JavaScript-Softwarebibliothek, die ein Grundgerüst für die Ausgabe von User-Interface-Komponenten von Webseiten zur Verfügung stellt.
 [See more...](https://de.wikipedia.org/wiki/React#:~:text=React%20ist%20eine%20JavaScript%2DSoftwarebibliothek,definierte%20JSX%2DTags%20repr%C3%A4sentiert%20werden.)
-[Go up](#beschreibung)
 
 ---
+[Go up](#programmierdefinitionen)
 
 ## XML
 
@@ -433,9 +433,9 @@ Extensible Markup Language (XML) is a markup language and file format for storin
 
 Die Extensible Markup Language – oder kurz XML – bildet die Basis für viele Datenformate, darunter auch die Neudefinition von HTML.
 [See more...](https://www.dev-insider.de/was-ist-xml-a-692619/)
-[Go up](#beschreibung)
 
 ---
+[Go up](#programmierdefinitionen)
 
 ## JSX
 
@@ -461,8 +461,8 @@ const user = {
 
 const element = <h1>Hallo {formatName(user)}!</h1>;
 ```
-[Go up](#beschreibung)
 ---
+[Go up](#programmierdefinitionen)
 
 ## Virtual DOM
 
@@ -475,9 +475,9 @@ The virtual DOM (VDOM) is a programming concept where an ideal, or “virtual”
 
 Das virtuelle DOM (VDOM) ist ein Programmierkonzept, bei dem eine ideale oder “virtuelle” Darstellung der Benutzerschnittstelle (UI) im Speicher gehalten und mit dem “echten” DOM mittels einer Bibliothek names ReactDOM synchronisiert wird.
 [See more...](https://reactjs.de/artikel/vdom-react/)
-[Go up](#beschreibung)
 
 ---
+[Go up](#programmierdefinitionen)
 
 ## Components
 
