@@ -409,7 +409,7 @@ Webpack (meist geschrieben webpack) ist ein Opensource-JavaScript-Modul-Packer. 
 ```bash
 "scripts": {
     "build":"webpack",
-    "watch":"watch webpack"
+    "watch":"webpack --watch"
   }
 "devDependencies": {
     "webpack": "^5.73.0",
