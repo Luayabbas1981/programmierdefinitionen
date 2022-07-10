@@ -80,6 +80,8 @@
   function sum(num1, num2) {
     return num1 * num2;
   }
+  console.log( sum(2,3));
+   6
   ```
 
 ---
@@ -110,6 +112,10 @@ function three() {
   console.log("three");
 }
 three();
+
+one
+two
+three
 ```
 
 ---
@@ -181,6 +187,11 @@ setTimeout(() => {
 }, 0);
 
 console.log("two");
+
+one
+two
+three
+four
 ```
 
 ---
@@ -263,6 +274,7 @@ Regular expressions are patterns used to match character combinations in strings
 let nums = "12345678910";
 let numsRe = /[0-2]/g;
 console.log(nums.match(numsRe));
+[ '1', '2', '1', '0' ]
 ```
 
 ---
