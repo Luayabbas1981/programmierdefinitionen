@@ -273,8 +273,7 @@ Regular expressions are patterns used to match character combinations in strings
 ```javascript
 const num = "01§23&&45@!6789";
 const numReg = /[^0-9]/g;
-console.log(num.match(numReg))
-[("§", "&", "&", "@", "!")];
+console.log(num.match(numReg))[("§", "&", "&", "@", "!")];
 ```
 
 ---
@@ -296,10 +295,32 @@ js ist eine plattformübergreifende Open-Source-JavaScript-Laufzeitumgebung, die
 On Ubuntu Terminal
 
 ```bash
-node -v 
+node -v
 sudo apt-get install curl
 curl -sL https://deb.nodesource.com/setup_12.x | sudo -E bash -
 sudo apt-get install nodejs
+
+```
+
+---
+
+## 🔸Bun
+
+### EN
+
+Bun is a modern JavaScript runtime like Node but has more features.
+
+[See more...](https://bun.sh/)
+
+### DE
+
+Bun ist eine moderne JavaScript-Laufzeit wie Node, hat aber mehr Funktionen.
+[See more...](https://www.heise.de/news/Die-neue-JavaScript-Runtime-Bun-fordert-Node-Deno-Co-heraus-7165132.html)
+
+On Ubuntu Terminal
+
+```bash
+curl https://bun.sh/install | bash
 
 ```
 
