@@ -113,9 +113,9 @@ function three() {
 }
 three();
 
-one;
-two;
-three;
+one
+two
+three
 ```
 
 ---
@@ -188,10 +188,10 @@ setTimeout(() => {
 
 console.log("two");
 
-one;
-two;
-three;
-four;
+one
+two
+three
+four
 ```
 
 ---
@@ -273,7 +273,7 @@ Regular expressions are patterns used to match character combinations in strings
 ```javascript
 const num = "01§23&&45@!6789";
 const numReg = /[^0-9]/g;
-console.log(num.match(numReg))[("§", "&", "&", "@", "!")];
+console.log(num.match(numReg))[("§", "&", "&", "@", "!")]
 ```
 
 ---
