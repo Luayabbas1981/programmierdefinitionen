@@ -127,6 +127,7 @@ Das Document Object Model, kurz DOM, macht die Strukturen von HTML- und XML-Doku
 [See more...](https://www.dev-insider.de/was-ist-das-dom-a-1095908/)
 
 ```javascript
+//Exampel
 document.getElementById("");
 document.querySelector("");
 document.createElement("");
@@ -147,6 +148,7 @@ Das Browser Object Model (BOM) ist ein mit dem Document Object Model (DOM) verwa
 [See more...](https://www.enzyklo.de/Begriff/Browser_Object_Model)
 
 ```javascript
+//Exampel
 window.localStorge;
 window.location;
 window.alert;
