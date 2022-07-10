@@ -4,6 +4,8 @@ I am of the opinion that programming is not about storing code in your head, it 
 ## Beschreibung
 Ich bin der Meinung, dass die Programmierung kein Code in den Kopf zu speichern ist, sondern etwas zu verstehen ist. bzw soll man verstehen, womit man arbeiten und wie jedes Ding funktioniert und welche Vor-Nachteile es hat, damit man die Themen miteinander verbinden kann und sodass man mehr kreativ sein könnte. Aus diesem Grund habe ich mich entschieden  alle wichtigen Themen mit kurzer Definition  als Nachschlagewerk  zu sammeln.
 
+|[Terminal](#🔸terminal)||[HTML](#🔸html)||[CSS](#🔸css)||[Javascript](#🔸javascript)|
+|---------||-----||-----||----------|
 ## 🔸Terminal
 
 ### EN
@@ -484,3 +486,5 @@ Komponenten erlauben dir deine Benutzeroberfläche in unabhängige, wiederverwen
 [See more...](https://de.reactjs.org/docs/components-and-props.html)
 
 ---
+
+[Up](#beschreibung)
