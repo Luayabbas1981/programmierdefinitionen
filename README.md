@@ -7,7 +7,7 @@ Ich bin der Meinung, dass die Programmierung kein Code in den Kopf zu speichern 
 
 | Thema |Thema|Thema|Thema
 | :-: | :-: | :-:|:-:
-| [Terminal](#🔸terminal) | [HTML](#🔸terminal) |[CSS](#🔸css)|[Javascript](#🔸javascript)
+| [Terminal](# terminal) | [HTML](# html) |[CSS](# css)|[Javascript](# javascript)
 
 ## 🔸Terminal
 
