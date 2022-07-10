@@ -1,8 +1,8 @@
 # Programmierdefinitionen
 ## Descrption
-I am of the opinion that programming is not about storing code in your head, it is something to be understood. Or you should understand what you work with and how this thing works and what advantages and disadvantages it has so that you can connect the topics with each other and so that you could be more creative. For this reason I have decided to collect all important topics with a short definition as a reference work.
+I am of the opinion that programming is not about storing code in your head, it is something to be understood. Or you should understand what you work with and how every signal thing works and what advantages and disadvantages it has so that you can connect the topics with each other and so that you could be more creative. For this reason I have decided to collect all important topics with a short definition as a reference work.
 ## Beschreibung
-Ich bin der Meinung, dass die Programmierung kein Code in den Kopf zu speichern ist, sondern etwas zu verstehen ist. bzw soll man verstehen, womit man arbeiten und wie diese Ding funktioniert und welche Vor-Nachteile es hat, damit man die Themen miteinander verbinden kann und sodass man mehr kreativ sein könnte. Aus diesem Grund habe ich mich entschieden  alle wichtigen Themen mit kurzer Definition  als Nachschlagewerk  zu sammeln.
+Ich bin der Meinung, dass die Programmierung kein Code in den Kopf zu speichern ist, sondern etwas zu verstehen ist. bzw soll man verstehen, womit man arbeiten und wie jedes Ding funktioniert und welche Vor-Nachteile es hat, damit man die Themen miteinander verbinden kann und sodass man mehr kreativ sein könnte. Aus diesem Grund habe ich mich entschieden  alle wichtigen Themen mit kurzer Definition  als Nachschlagewerk  zu sammeln.
 
 ## 🔸Terminal
 
