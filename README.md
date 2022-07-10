@@ -5,17 +5,17 @@ I am of the opinion that programming is not about storing code in your head, it 
 Ich bin der Meinung, dass die Programmierung kein Code in den Kopf zu speichern ist, sondern etwas zu verstehen ist. bzw soll man verstehen, womit man arbeiten und wie jedes Ding funktioniert und welche Vor-Nachteile es hat, damit man die Themen miteinander verbinden kann und sodass man mehr kreativ sein könnte. Aus diesem Grund habe ich mich entschieden  alle wichtigen Themen mit kurzer Definition  als Nachschlagewerk  zu sammeln.
 
 
- | Thema |Thema|Thema|Thema|Thema|Thema|Thema
-|:-:| :-: | :-: | :-:|:-:|:-:|:-:
-| [Terminal](#terminal) | [HTML](#html) |[CSS](#css)|[Javascript](#javascript)|[Call stack](#call-stack-lifo)|[DOM](#dom)|[BOM](#bom)
+ | Thema |Thema|Thema|Thema|Thema|Thema|Thema| Thema |Thema
+|:-:| :-: | :-: | :-:|:-:|:-:|:-:| :-: | :-:
+| [Terminal](#terminal) | [HTML](#html) |[CSS](#css)|[Javascript](#javascript)|[Call stack](#call-stack-lifo)|[DOM](#dom)|[BOM](#bom)|[Callback Queue ](#callback-queue-and-event-loop-fifo)|[API](#api)
 
-| Thema |Thema|Thema|Thema | Thema |Thema|Thema
-| :-: | :-: | :-:|:-:| :-: | :-: | :-:
-|[Callback Queue ](#callback-queue-and-event-loop-fifo)|[API](#api)|[AJAX](#ajax)|[OOP](#oop)|[RegEx](#regex)|[NodeJs](#nodejs)|[Bun](#bun)
+|Thema|Thema | Thema |Thema|Thema|Thema|Thema|Thema|Thema | Thema
+| :-:|:-:| :-: | :-: | :-:|:-:|:-:|:-:|:-:| :-: 
+|[AJAX](#ajax)|[OOP](#oop)|[RegEx](#regex)|[NodeJs](#nodejs)|[Bun](#bun)|[JSON](#json)|[Webpack](#webpack)|[SPA](#spa)|[React](#react)|[XML](#xml)
 
- |Thema|Thema|Thema|Thema| Thema |Thema|Thema|Thema
-|:-:|:-:|:-:|:-:| :-: | :-: | :-:|:-:
-|[JSON](#json)|[Webpack](#webpack)|[SPA](#spa)|[React](#react)|[XML](#xml)|[JSX](#jsx)|[Virtual DOM](#virtual-dom)|[Components](#components) 
+ |Thema|Thema|Thema
+| :-: | :-:|:-:
+|[JSX](#jsx)|[Virtual DOM](#virtual-dom)|[Components](#components) 
 
 ## Terminal
 
