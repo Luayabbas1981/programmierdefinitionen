@@ -103,9 +103,10 @@ curl https://bun.sh/install | bash
 </head>
 </html>
 ```
-
 ---
+
 [Go Up](#programmierdefinitionen)
+=
 ## CSS
 
 ### EN
@@ -124,9 +125,9 @@ curl https://bun.sh/install | bash
       user-select:none;
     }
   ```
-
 ---
 [Go Up](#programmierdefinitionen)
+
 ## Javascript
 
 ### EN
@@ -145,8 +146,8 @@ curl https://bun.sh/install | bash
   console.log(sum(2, 3));
   6
   ```
-
 ---
+
 [Go Up](#programmierdefinitionen)
 ## OOP
 
@@ -182,6 +183,7 @@ console.log(num.match(numReg))[("§", "&", "&", "@", "!")]
 
 ---
 [Go Up](#programmierdefinitionen)
+
 ## Call stack (Lifo)
 
 ### EN
@@ -213,8 +215,8 @@ one
 two
 three
 ```
-
 ---
+
 [Go Up](#programmierdefinitionen)
 ## SPA
 
@@ -249,8 +251,8 @@ document.getElementById("");
 document.querySelector("");
 document.createElement("");
 ```
-
 ---
+
 [Go Up](#programmierdefinitionen)
 
 ## BOM
@@ -272,9 +274,10 @@ window.location;
 window.alert;
 window.prompt;
 ```
-
 ---
+
 [Go Up](#programmierdefinitionen)
+
 ## Callback Queue and Event Loop (Fifo)
 
 ### EN
@@ -305,7 +308,6 @@ two
 three
 four
 ```
-
 ---
 [Go Up](#programmierdefinitionen)
 ## API
@@ -332,8 +334,8 @@ async function getData() {
   console.log(data);
 }
 ```
-
 ---
+
 [Go Up](#programmierdefinitionen)
 
 ## AJAX
@@ -354,7 +356,89 @@ data.open("GET", "url", true);
 data.send();
 console.log(data);
 ```
+---
 
+[Go Up](#programmierdefinitionen)
+
+## OOP
+
+### EN
+
+Object-oriented refers to a programming language, system or software methodology that is built on the concepts of logical objects. It works through the creation, utilization and manipulation of reusable objects to perform a specific task, process or objective.
+[See more...](https://www.techopedia.com/definition/3233/object-oriented#:~:text=Object%2Doriented%20refers%20to%20a,specific%20task%2C%20process%20or%20objective.)
+
+### DE
+
+Die objektorientierte Programmierung (OOP) ist ein Programmierparadigmus, der auf der Modularisierung von Programmen basiert und sich stark von der klassischen prozeduralen.
+[See more...](https://www.itwissen.info/Objektorientierte-Programmierung-object-oriented-programming-OOP.html)
+---
+[Go up](#programmierdefinitionen)
+
+## RegEx
+
+### EN
+
+Regular expressions are patterns used to match character combinations in strings. In JavaScript, regular expressions are also objects.
+[See more...](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Guide/Regular_Expressions)
+
+### DE
+
+- Reguläre Ausdrücke sind Muster, die eingesetzt werden, um Text auf bestimmte Zeichenkombinationen zu überprüfen.
+  [See more...](https://developer.mozilla.org/de/docs/Web/JavaScript/Guide/Regular_Expressions)
+
+```javascript
+const num = "01§23&&45@!6789";
+const numReg = /[^0-9]/g;
+console.log(num.match(numReg))[("§", "&", "&", "@", "!")]
+```
+---
+[Go up](#programmierdefinitionen)
+
+## NodeJs
+
+### EN
+
+js is an open-source, cross-platform JavaScript runtime that can run JavaScript code outside of a web browser.
+
+[See more...](https://javascript.plainenglish.io/what-is-node-js-5fe50e4332c8)
+
+### DE
+
+js ist eine plattformübergreifende Open-Source-JavaScript-Laufzeitumgebung, die JavaScript-Code außerhalb eines Webbrowsers ausführen kann.
+[See more...](https://www.dev-insider.de/was-ist-nodejs-a-972703/)
+[Nodejs website](https://nodejs.org/en/)
+
+On Ubuntu Terminal
+
+```bash
+node -v
+sudo apt-get install curl
+curl -sL https://deb.nodesource.com/setup_12.x | sudo -E bash -
+sudo apt-get install nodejs
+
+```
+---
+[Go up](#programmierdefinitionen)
+
+## Bun
+
+### EN
+
+Bun is a modern JavaScript runtime like Node but has more features.
+
+[See more...](https://bun.sh/)
+
+### DE
+
+Bun ist eine moderne JavaScript-Laufzeit wie Node, hat aber mehr Funktionen.
+[See more...](https://www.heise.de/news/Die-neue-JavaScript-Runtime-Bun-fordert-Node-Deno-Co-heraus-7165132.html)
+
+On Ubuntu Terminal
+
+```bash
+curl https://bun.sh/install | bash
+
+```
 ---
 [Go Up](#programmierdefinitionen)
 
@@ -382,9 +466,10 @@ Die Abkürzung JSON steht für JavaScript Object Notation. Dabei handelt es sich
   "null": null
 }
 ```
-
 ---
+
 [Go Up](#programmierdefinitionen)
+
 ## Webpack
 
 ### EN
@@ -412,10 +497,26 @@ npm run build  //or
 npm run watch
 
 ```
-
 ---
 [Go Up](#programmierdefinitionen)
 ## REACT
+
+## SPA
+
+### EN
+
+A single-page application (SPA) is a Web app that is presented to the user through a single HTML page.
+[See more...](<https://www.techtarget.com/whatis/definition/single-page-application-SPA#:~:text=A%20single%2Dpage%20application%20(SPA,%2Dpage%20interface%20(SPI).)>)
+
+### DE
+
+Eine Single Page Application ist eine Web-Anwendung, die in einem Webbrowser arbeitet und bei der der Website-Besucher die Webseite nicht neu laden muss.
+[See more...](https://www.sana-commerce.com/de/ecommerce-erklaert/was-ist-eine-single-page-application/)
+
+---
+[Go Up](#programmierdefinitionen)
+
+## React
 
 ### EN
 
@@ -428,7 +529,9 @@ React ist eine JavaScript-Softwarebibliothek, die ein Grundgerüst für die Ausg
 [See more...](https://de.wikipedia.org/wiki/React#:~:text=React%20ist%20eine%20JavaScript%2DSoftwarebibliothek,definierte%20JSX%2DTags%20repr%C3%A4sentiert%20werden.)
 
 ---
+
 [Go Up](#programmierdefinitionen)
+
 ## XML
 
 ### EN
@@ -442,7 +545,9 @@ Die Extensible Markup Language – oder kurz XML – bildet die Basis für viele
 [See more...](https://www.dev-insider.de/was-ist-xml-a-692619/)
 
 ---
+
 [Go Up](#programmierdefinitionen)
+
 ## JSX
 
 ### EN
@@ -467,9 +572,10 @@ const user = {
 
 const element = <h1>Hallo {formatName(user)}!</h1>;
 ```
-
 ---
+
 [Go Up](#programmierdefinitionen)
+
 ## Virtual DOM
 
 ### EN
@@ -483,7 +589,9 @@ Das virtuelle DOM (VDOM) ist ein Programmierkonzept, bei dem eine ideale oder �
 [See more...](https://reactjs.de/artikel/vdom-react/)
 
 ---
+
 [Go Up](#programmierdefinitionen)
+
 ## Components
 
 ### EN
@@ -498,4 +606,6 @@ Komponenten erlauben dir deine Benutzeroberfläche in unabhängige, wiederverwen
 [See more...](https://de.reactjs.org/docs/components-and-props.html)
 
 ---
+
 [Go Up](#programmierdefinitionen)
+
