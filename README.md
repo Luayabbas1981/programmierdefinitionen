@@ -291,9 +291,16 @@ js is an open-source, cross-platform JavaScript runtime that can run JavaScript 
 
 js ist eine plattformübergreifende Open-Source-JavaScript-Laufzeitumgebung, die JavaScript-Code außerhalb eines Webbrowsers ausführen kann.
 [See more...](https://www.dev-insider.de/was-ist-nodejs-a-972703/)
+[Nodejs website](https://nodejs.org/en/)
+
+On Ubuntu Terminal
 
 ```bash
-npm init
+node -v 
+sudo apt-get install curl
+curl -sL https://deb.nodesource.com/setup_12.x | sudo -E bash -
+sudo apt-get install nodejs
+
 ```
 
 ---
