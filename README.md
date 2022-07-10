@@ -1,4 +1,8 @@
 # Programmierdefinitionen
+## Descrption
+I assume that programming is not something to be stored in one's head, but rather something to be understood, respectively one should be understood, what one is working with and what the advantages and disadvantages of the subject are, so that one could be more creative. For this reason I have decided to collect all important topics with a short definition as a reference work.
+## Beschreibung
+Ich gehe davon aus, dass die Programmierung kein etwas in den Kopf zu speichern ist, sondern etwas zu verstehen ist bzw soll man verstehen, womit man arbeiten und welche Vor-Nachteile das Thema hat, damit man mehr kreativ sein könnte. Aus diesem Grund habe ich mich entschieden alle wichtigen Themen mit kurzer Definition als Nachschlagewerk zu sammeln. 
 
 ## 🔸Terminal
 
