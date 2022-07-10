@@ -5,11 +5,11 @@ I am of the opinion that programming is not about storing code in your head, it 
 Ich bin der Meinung, dass die Programmierung kein Code in den Kopf zu speichern ist, sondern etwas zu verstehen ist. bzw soll man verstehen, womit man arbeiten und wie jedes Ding funktioniert und welche Vor-Nachteile es hat, damit man die Themen miteinander verbinden kann und sodass man mehr kreativ sein könnte. Aus diesem Grund habe ich mich entschieden  alle wichtigen Themen mit kurzer Definition  als Nachschlagewerk  zu sammeln.
 
 
-| Thema |Thema|Thema|Thema
-| :-: | :-: | :-:|:-:
-| [Terminal](#🔸terminal) | [HTML](#🔸html) |[CSS](#css)|[Javascript](#🔸javascript)
+| Thema |Thema|Thema|Thema | Thema |Thema|Thema|Thema|Thema|Thema|Thema| Thema |Thema|Thema|Thema | Thema |Thema|Thema|Thema|Thema|Thema|Thema
+| :-: | :-: | :-:|:-:| :-: | :-: | :-:|:-:|:-:|:-:|:-:| :-: | :-: | :-:|:-:| :-: | :-: | :-:|:-:|:-:|:-:|:-:
+| [Terminal](#terminal) | [HTML](#html) |[CSS](#css)|[Javascript](#javascript)|[Call stack](#call-stack-lifo)|[DOM](#dom)|[BOM](#bom)|[Callback Queue ](#callback-queue-and-event-loop-fifo)|[API](#api)|[AJAX](#ajax)|[OOP](#oop)|[RegEx](#regex)|[NodeJs](#nodejs)|[Bun](#bun)|[JSON](#json)|[Webpack](#webpack)|[SPA](#spa)|[React](#react)|[XML](#xml)|[JSX](#jsx)|[Virtual DOM](#virtual-dom)|[Components](#components)
 
-## 🔸Terminal
+## Terminal
 
 ### EN
 
@@ -27,7 +27,7 @@ Ich bin der Meinung, dass die Programmierung kein Code in den Kopf zu speichern 
 
 ---
 
-## 🔸HTML
+## HTML
 
 ### EN
 
@@ -74,7 +74,7 @@ Ich bin der Meinung, dass die Programmierung kein Code in den Kopf zu speichern 
 
 ---
 
-## 🔸Javascript
+## Javascript
 
 ### EN
 
@@ -95,7 +95,7 @@ Ich bin der Meinung, dass die Programmierung kein Code in den Kopf zu speichern 
 
 ---
 
-## 🔸Call stack (Lifo)
+## Call stack (Lifo)
 
 ### EN
 
@@ -129,7 +129,7 @@ three
 
 ---
 
-## 🔸DOM
+## DOM
 
 ### EN
 
@@ -150,7 +150,7 @@ document.createElement("");
 
 ---
 
-## 🔸BOM
+## BOM
 
 ### EN
 
@@ -172,7 +172,7 @@ window.prompt;
 
 ---
 
-## 🔸Callback Queue and Event Loop (Fifo)
+## Callback Queue and Event Loop (Fifo)
 
 ### EN
 
@@ -205,7 +205,7 @@ four
 
 ---
 
-## 🔸API
+## API
 
 ### EN
 
@@ -232,7 +232,7 @@ async function getData() {
 
 ---
 
-## 🔸AJAX
+## AJAX
 
 ### EN
 
@@ -253,7 +253,7 @@ console.log(data);
 
 ---
 
-## 🔸OOP
+## OOP
 
 ### EN
 
@@ -267,7 +267,7 @@ Die objektorientierte Programmierung (OOP) ist ein Programmierparadigmus, der au
 
 ---
 
-## 🔸RegEx
+## RegEx
 
 ### EN
 
@@ -287,7 +287,7 @@ console.log(num.match(numReg))[("§", "&", "&", "@", "!")]
 
 ---
 
-## 🔸NodeJs
+## NodeJs
 
 ### EN
 
@@ -313,7 +313,7 @@ sudo apt-get install nodejs
 
 ---
 
-## 🔸Bun
+## Bun
 
 ### EN
 
@@ -335,7 +335,7 @@ curl https://bun.sh/install | bash
 
 ---
 
-## 🔸JSON
+## JSON
 
 ### EN
 
@@ -362,7 +362,7 @@ Die Abkürzung JSON steht für JavaScript Object Notation. Dabei handelt es sich
 
 ---
 
-## 🔸Webpack
+## Webpack
 
 ### EN
 
@@ -392,7 +392,7 @@ npm run watch
 
 ---
 
-## 🔸SPA
+## SPA
 
 ### EN
 
@@ -406,7 +406,7 @@ Eine Single Page Application ist eine Web-Anwendung, die in einem Webbrowser arb
 
 ---
 
-## 🔸REACT
+## React
 
 ### EN
 
@@ -420,7 +420,7 @@ React ist eine JavaScript-Softwarebibliothek, die ein Grundgerüst für die Ausg
 
 ---
 
-## 🔸XML
+## XML
 
 ### EN
 
@@ -434,7 +434,7 @@ Die Extensible Markup Language – oder kurz XML – bildet die Basis für viele
 
 ---
 
-## 🔸JSX
+## JSX
 
 ### EN
 
@@ -461,7 +461,7 @@ const element = <h1>Hallo {formatName(user)}!</h1>;
 
 ---
 
-## 🔸Virtual DOM
+## Virtual DOM
 
 ### EN
 
@@ -475,7 +475,7 @@ Das virtuelle DOM (VDOM) ist ein Programmierkonzept, bei dem eine ideale oder �
 
 ---
 
-## 🔸Components
+## Components
 
 ### EN
 
@@ -490,4 +490,4 @@ Komponenten erlauben dir deine Benutzeroberfläche in unabhängige, wiederverwen
 
 ---
 
-[Up](#beschreibung)
+[Go up](#beschreibung)
