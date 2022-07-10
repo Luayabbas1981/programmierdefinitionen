@@ -15,7 +15,7 @@ I believe that programming is not about just storing a code in mind, it is somet
 **Beschreibung**
 Ich bin der Meinung, dass die Programmierung kein Code in den Kopf zu speichern ist, sondern etwas zu verstehen ist. bzw soll man verstehen, womit man arbeiten und wie jedes Ding funktioniert und welche Vor-Nachteile es hat, damit man die Themen miteinander verbinden kann und sodass man mehr kreativ sein könnte. Aus diesem Grund habe ich mich entschieden  alle wichtigen Themen mit kurzer Definition als Nachschlagewerk zu sammeln.
 
-## Terminal
+## _Terminal_
 
 ### EN
 
@@ -33,7 +33,7 @@ Ich bin der Meinung, dass die Programmierung kein Code in den Kopf zu speichern 
 
 ---
 [Go Up](#programmierdefinitionen)
-## NodeJs
+## _NodeJs_
 
 ### EN
 
@@ -107,7 +107,7 @@ curl https://bun.sh/install | bash
 
 [Go Up](#programmierdefinitionen)
 
-## ==CSS==
+## CSS
 
 ### EN
 
