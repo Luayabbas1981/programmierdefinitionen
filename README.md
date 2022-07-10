@@ -17,7 +17,7 @@ Ich bin der Meinung, dass die Programmierung kein Code in den Kopf zu speichern 
 | :-: | :-:|:-:
 |[JSX](#jsx)|[Virtual DOM](#virtual-dom)|[Components](#components) 
 
-## Terminal 🔸
+## Terminal 
 
 ### EN
 
@@ -35,7 +35,7 @@ Ich bin der Meinung, dass die Programmierung kein Code in den Kopf zu speichern 
 
 ---
 
-## HTML 🔸
+## HTML 
 
 ### EN
 
