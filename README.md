@@ -143,10 +143,10 @@ curl https://bun.sh/install | bash
   [See more...](https://developer.mozilla.org/de/docs/See/JavaScript/First_steps/What_is_JavaScript)
   ```javascript
   function sum(num1, num2) {
-    return num1 * num2;
+    return num1 + num2;
   }
   console.log(sum(2, 3));
-  6
+  5
   ```
 ---
 
