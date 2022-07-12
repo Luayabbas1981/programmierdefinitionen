@@ -198,30 +198,6 @@ A call stack is a mechanism for an interpreter (like the JavaScript interpreter 
 Unter einem Aufrufstapel (englisch call stack, procedure stack) versteht man in der Softwaretechnik und Informatik einen besonders genutzten Stapelspeicher, der zur Laufzeit eines Programms den Zustand der gerade aufgerufenen Unterprogramme enthält.
 [See more...](https://hmn.wiki/de/Call_stack)
 
-```bash
-
-nativ objects like :
-Date , Math , indexOf , replace
-
-nativ objects like :
-window , setTimeout , querySelectorAll , document
-
-```
----
-[Go Up](#programmierdefinitionen)
-
-## _Host objects and native objects_
-
-### EN
-
-Host Objects are objects supplied by a certain environment while Native Objects or Built-in Objects are standard built-in objects provided by Javascript. 
-[See more...](https://rlynjb.medium.com/js-interview-question-what-s-the-difference-between-host-objects-and-native-objects-b395f7c5fbf1)
-
-### DE
-
-Host-Objekte sind Objekte, die von einer bestimmten Umgebung bereitgestellt werden, während native Objekte oder integrierte Objekte standardmäßige integrierte Objekte sind, die von Javascript bereitgestellt werden.
-[See more...](https://levitrares.com/host-https-qastack.com.de/programming/7614317/what-is-the-difference-between-native-objects-and-host-objects)
-
 ```javascript
 // Lifo - Last in first out
 function one() {
@@ -241,6 +217,32 @@ one
 two
 three
 ```
+---
+[Go Up](#programmierdefinitionen)
+
+## _Host objects and native objects_
+
+### EN
+
+Host Objects are objects supplied by a certain environment while Native Objects or Built-in Objects are standard built-in objects provided by Javascript. 
+[See more...](https://rlynjb.medium.com/js-interview-question-what-s-the-difference-between-host-objects-and-native-objects-b395f7c5fbf1)
+
+### DE
+
+Host-Objekte sind Objekte, die von einer bestimmten Umgebung bereitgestellt werden, während native Objekte oder integrierte Objekte standardmäßige integrierte Objekte sind, die von Javascript bereitgestellt werden.
+[See more...](https://levitrares.com/host-https-qastack.com.de/programming/7614317/what-is-the-difference-between-native-objects-and-host-objects)
+
+```bash
+Host objects like :
+
+window  document  getElementById  
+
+Native objects like :
+
+Date Math replace indexOf 
+```
+
+
 ---
 
 [Go Up](#programmierdefinitionen)
