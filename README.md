@@ -3,9 +3,9 @@
 ## Content/Inhalt
 | Module                        | Topic                    |                    |             |                                                                             |                                       |               |               |                     |                 |             |             |                             |                           |
 |-------------------------------|--------------------------|--------------------|-------------|-----------------------------------------------------------------------------|---------------------------------------|---------------|---------------|---------------------|-----------------|-------------|-------------|-----------------------------|---------------------------|
-| BDL (Basic Digital Literacy)  | [Terminal](#terminal)    | [Node.js](#nodejs) |             | [Bun](#bun)                                                                 |                                       |               |               |                     |                 |             |             |                             |                           |
+| BDL (Basic Digital Literacy)  | [Terminal](#terminal)    | [Node.js](#nodejs) |   [Bun](#bun)          |                                                                  |                                       |               |               |                     |                 |             |             |                             |                           |
 | UIB (User Interface Basics)   | [HTML](#html)            | [CSS](#css)        |             |                                                                             |                                       |               |               |                     |                 |             |             |                             |                           |
-| PB (Programming Basic)        | [JavaScrpt](#javascript) | [OOP](#oop)        |             | [RegEx](#regex)                                                             | [Call stack (Lifo)](#call-stack-lifo) |               |               |                     |                 |             |             |                             |                           |
+| PB (Programming Basic)        | [JavaScrpt](#javascript) | [OOP](#oop)        |    [RegEx](#regex)         |                                       [Call stack (Lifo)](#call-stack-lifo)                       | [Nativ and Host objects](#host-objects-and-native-objects) |               |               |                     |                 |             |             |                             |                           |
 | SPA (Single Page Application) | [SPA](#spa)              | [DOM](#dom)        | [BOM](#bom) | [Callback Queue and Event Loop (Fifo)](#callback-queue-and-event-loop-fifo) | [API](#api)                           | [AJAX](#ajax) | [JSON](#json) | [Webpack](#webpack) | [React](#react) | [XML](#xml) | [JSX](#jsx) | [Virtual DOM](#virtual-dom) | [Components](#components) |
 | Backend                       |                          |                    |             |                                                                             |                                       |               |               |                     |                 |             |             |                             |                           |
 
@@ -197,6 +197,28 @@ A call stack is a mechanism for an interpreter (like the JavaScript interpreter 
 
 Unter einem Aufrufstapel (englisch call stack, procedure stack) versteht man in der Softwaretechnik und Informatik einen besonders genutzten Stapelspeicher, der zur Laufzeit eines Programms den Zustand der gerade aufgerufenen Unterprogramme enthält.
 [See more...](https://hmn.wiki/de/Call_stack)
+
+```bash
+
+nativ objects like :
+Date , Math , indexOf , replace
+
+nativ objects like :
+window , setTimeout , querySelectorAll , document
+
+```
+---
+## _ Host objects and native objects_
+
+### EN
+
+Host Objects are objects supplied by a certain environment while Native Objects or Built-in Objects are standard built-in objects provided by Javascript. 
+[See more...](https://rlynjb.medium.com/js-interview-question-what-s-the-difference-between-host-objects-and-native-objects-b395f7c5fbf1)
+
+### DE
+
+Host-Objekte sind Objekte, die von einer bestimmten Umgebung bereitgestellt werden, während native Objekte oder integrierte Objekte standardmäßige integrierte Objekte sind, die von Javascript bereitgestellt werden.
+[See more...](https://levitrares.com/host-https-qastack.com.de/programming/7614317/what-is-the-difference-between-native-objects-and-host-objects)
 
 ```javascript
 // Lifo - Last in first out
