@@ -5,7 +5,7 @@
 |-------------------------------|--------------------------|--------------------|-------------|-----------------------------------------------------------------------------|---------------------------------------|---------------|---------------|---------------------|-----------------|-------------|-------------|-----------------------------|---------------------------|
 | BDL (Basic Digital Literacy)  | [Terminal](#terminal)    | [Node.js](#nodejs) |   [Bun](#bun)          |                                                                  |                                       |               |               |                     |                 |             |             |                             |                           |
 | UIB (User Interface Basics)   | [HTML](#html)            | [CSS](#css)        |             |                                                                             |                                       |               |               |                     |                 |             |             |                             |                           |
-| PB (Programming Basic)        | [JavaScrpt](#javascript) | [OOP](#oop)        |    [RegEx](#regex)         |                                       [Call stack (Lifo)](#call-stack-lifo)                       | [Nativ and Host objects](#host-objects-and-native-objects) |               |               |                     |                 |             |             |                             |                           |
+| PB (Programming Basic)        | [JavaScrpt](#javascript) | [OOP](#oop)        |    [RegEx](#regex)         |                                       [Call stack (Lifo)](#call-stack-lifo)                       | [Nativ and Host objects](#host-objects-and-native-objects) | [Callback Hell](#callback-hell--pyramid-of-doom)              |               |                     |                 |             |             |                             |                           |
 | SPA (Single Page Application) | [SPA](#spa)              | [DOM](#dom)        | [BOM](#bom) | [Callback Queue and Event Loop (Fifo)](#callback-queue-and-event-loop-fifo) | [API](#api)                           | [AJAX](#ajax) | [JSON](#json) | [Webpack](#webpack) | [React](#react) | [XML](#xml) | [JSX](#jsx) | [Virtual DOM](#virtual-dom) | [Components](#components) |
 | Backend                       |                          |                    |             |                                                                             |                                       |               |               |                     |                 |             |             |                             |                           |
 
@@ -335,6 +335,48 @@ one
 two
 three
 four
+```
+---
+[Go Up](#programmierdefinitionen)
+
+## _Callback Hell / Pyramid of Doom_
+
+### EN
+
+A guide to writing asynchronous JavaScript programs.
+[See more...](http://callbackhell.com/)
+
+### DE
+
+Eine Anleitung zum Schreiben asynchroner JavaScript-Programme.
+[See more...](https://blog.ppedv.de/post/Callback-Hell-Promises-in-JavaScript-!)
+
+```javascript
+// Callback Hell example
+fs.readdir(source, function (err, files) {
+  if (err) {
+    console.log('Error finding files: ' + err)
+  } else {
+    files.forEach(function (filename, fileIndex) {
+      console.log(filename)
+      gm(source + filename).size(function (err, values) {
+        if (err) {
+          console.log('Error identifying file size: ' + err)
+        } else {
+          console.log(filename + ' : ' + values)
+          aspect = (values.width / values.height)
+          widths.forEach(function (width, widthIndex) {
+            height = Math.round(width / aspect)
+            console.log('resizing ' + filename + 'to ' + height + 'x' + height)
+            this.resize(width, height).write(dest + 'w' + width + '_' + filename, function(err) {
+              if (err) console.log('Error writing file: ' + err)
+            })
+          }.bind(this))
+        }
+      })
+    })
+  }
+})
 ```
 ---
 [Go Up](#programmierdefinitionen)
