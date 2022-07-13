@@ -1,19 +1,20 @@
 # Programmierdefinitionen
 
 ## Content/Inhalt
-| Module                        | Topic                    |                    |             |                                                                             |                                       |               |               |                     |                 |             |             |                             |                           |
-|-------------------------------|--------------------------|--------------------|-------------|-----------------------------------------------------------------------------|---------------------------------------|---------------|---------------|---------------------|-----------------|-------------|-------------|-----------------------------|---------------------------|
-| BDL (Basic Digital Literacy)  | [Terminal](#terminal)    | [Node.js](#nodejs) |   [Bun](#bun)          |                                                                  |                                       |               |               |                     |                 |             |             |                             |                           |
-| UIB (User Interface Basics)   | [HTML](#html)            | [CSS](#css)        |             |                                                                             |                                       |               |               |                     |                 |             |             |                             |                           |
-| PB (Programming Basic)        | [JavaScrpt](#javascript) | [OOP](#oop)        |    [RegEx](#regex)         |                                       [Call stack (Lifo)](#call-stack-lifo)                       | [Nativ and Host objects](#host-objects-and-native-objects) | [Callback Hell](#callback-hell--pyramid-of-doom)              |               |                     |                 |             |             |                             |                           |
-| SPA (Single Page Application) | [SPA](#spa)              | [DOM](#dom)        | [BOM](#bom) | [Callback Queue and Event Loop (Fifo)](#callback-queue-and-event-loop-fifo) | [API](#api)                           | [AJAX](#ajax) | [JSON](#json) | [Webpack](#webpack) | [React](#react) | [XML](#xml) | [JSX](#jsx) | [Virtual DOM](#virtual-dom) | [Components](#components) |
-| Backend                       |                          |                    |             |                                                                             |                                       |               |               |                     |                 |             |             |                             |                           |
+
+| Module                        | Topic                    |                    |                 |                                                                             |                                                            |             |               |               |                     |                 |             |             |                             |                           |
+| ----------------------------- | ------------------------ | ------------------ | --------------- | --------------------------------------------------------------------------- | ---------------------------------------------------------- | ----------- | ------------- | ------------- | ------------------- | --------------- | ----------- | ----------- | --------------------------- | ------------------------- |
+| BDL (Basic Digital Literacy)  | [Terminal](#terminal)    | [Node.js](#nodejs) | [Bun](#bun)     |                                                                             |                                                            |             |               |               |                     |                 |             |             |                             |                           |
+| UIB (User Interface Basics)   | [HTML](#html)            | [CSS](#css)        |                 |                                                                             |                                                            |             |               |               |                     |                 |             |             |                             |                           |
+| PB (Programming Basic)        | [JavaScrpt](#javascript) | [OOP](#oop)        | [RegEx](#regex) | [Call stack (Lifo)](#call-stack-lifo)                                       | [Nativ and Host objects](#host-objects-and-native-objects) |             |               |               |                     |                 |             |             |                             |                           |
+| SPA (Single Page Application) | [SPA](#spa)              | [DOM](#dom)        | [BOM](#bom)     | [Callback Queue and Event Loop (Fifo)](#callback-queue-and-event-loop-fifo) | [Callback Hell](#callback-hell--pyramid-of-doom)           | [API](#api) | [AJAX](#ajax) | [JSON](#json) | [Webpack](#webpack) | [React](#react) | [XML](#xml) | [JSX](#jsx) | [Virtual DOM](#virtual-dom) | [Components](#components) |
+| Backend                       |                          |                    |                 |                                                                             |                                                            |             |               |               |                     |                 |             |             |                             |                           |
 
 **Description**
 I believe that programming is not just about storing a code in mind, it is something to be understood or rather you should understand what you work with and how every signal thing works and what advantages and disadvantages it has so that you can connect the topics with each other and so that you could be more creative. For this reason I have decided to collect all important topics with a short definition as a reference work.
 
 **Beschreibung**
-Ich bin der Meinung, dass die Programmierung kein Code in den Kopf zu speichern ist, sondern etwas zu verstehen ist. bzw soll man verstehen, womit man arbeiten und wie jedes Ding funktioniert und welche Vor-Nachteile es hat, damit man die Themen miteinander verbinden kann und sodass man mehr kreativ sein könnte. Aus diesem Grund habe ich mich entschieden  alle wichtigen Themen mit kurzer Definition als Nachschlagewerk zu sammeln.
+Ich bin der Meinung, dass die Programmierung kein Code in den Kopf zu speichern ist, sondern etwas zu verstehen ist. bzw soll man verstehen, womit man arbeiten und wie jedes Ding funktioniert und welche Vor-Nachteile es hat, damit man die Themen miteinander verbinden kann und sodass man mehr kreativ sein könnte. Aus diesem Grund habe ich mich entschieden alle wichtigen Themen mit kurzer Definition als Nachschlagewerk zu sammeln.
 
 ## _Terminal_
 
@@ -32,7 +33,9 @@ Ich bin der Meinung, dass die Programmierung kein Code in den Kopf zu speichern 
   ```
 
 ---
+
 [Go Up](#programmierdefinitionen)
+
 ## _NodeJs_
 
 ### EN
@@ -56,8 +59,11 @@ curl -sL https://deb.nodesource.com/setup_12.x | sudo -E bash -
 sudo apt-get install nodejs
 
 ```
+
 ---
+
 [Go Up](#programmierdefinitionen)
+
 ## _Bun_
 
 ### EN
@@ -79,7 +85,9 @@ curl https://bun.sh/install | bash
 ```
 
 ---
+
 [Go Up](#programmierdefinitionen)
+
 ## _HTML_
 
 ### EN
@@ -105,6 +113,7 @@ curl https://bun.sh/install | bash
 </body>
 </html>
 ```
+
 ---
 
 [Go Up](#programmierdefinitionen)
@@ -127,7 +136,9 @@ curl https://bun.sh/install | bash
       user-select:none;
     }
   ```
+
 ---
+
 [Go Up](#programmierdefinitionen)
 
 ## _Javascript_
@@ -146,11 +157,13 @@ curl https://bun.sh/install | bash
     return num1 + num2;
   }
   console.log(sum(2, 3));
-  5
+  5;
   ```
+
 ---
 
 [Go Up](#programmierdefinitionen)
+
 ## _OOP_
 
 ### EN
@@ -164,7 +177,9 @@ Die objektorientierte Programmierung (OOP) ist ein Programmierparadigmus, der au
 [See more...](https://www.itwissen.info/Objektorientierte-Programmierung-object-oriented-programming-OOP.html)
 
 ---
+
 [Go Up](#programmierdefinitionen)
+
 ## _RegEx_
 
 ### EN
@@ -180,10 +195,11 @@ Regular expressions are patterns used to match character combinations in strings
 ```javascript
 const num = "01§23&&45@!6789";
 const numReg = /[^0-9]/g;
-console.log(num.match(numReg))[("§", "&", "&", "@", "!")]
+console.log(num.match(numReg))[("§", "&", "&", "@", "!")];
 ```
 
 ---
+
 [Go Up](#programmierdefinitionen)
 
 ## _Call stack (Lifo)_
@@ -213,18 +229,20 @@ function three() {
 }
 three();
 
-one
-two
-three
+one;
+two;
+three;
 ```
+
 ---
+
 [Go Up](#programmierdefinitionen)
 
 ## _Host objects and native objects_
 
 ### EN
 
-Host Objects are objects supplied by a certain environment while Native Objects or Built-in Objects are standard built-in objects provided by Javascript. 
+Host Objects are objects supplied by a certain environment while Native Objects or Built-in Objects are standard built-in objects provided by Javascript.
 [See more...](https://rlynjb.medium.com/js-interview-question-what-s-the-difference-between-host-objects-and-native-objects-b395f7c5fbf1)
 
 ### DE
@@ -235,17 +253,17 @@ Host-Objekte sind Objekte, die von einer bestimmten Umgebung bereitgestellt werd
 ```bash
 Host objects like :
 
-window  document  getElementById  
+window  document  getElementById
 
 Native objects like :
 
-Date Math replace indexOf 
+Date Math replace indexOf
 ```
-
 
 ---
 
 [Go Up](#programmierdefinitionen)
+
 ## _SPA_
 
 ### EN
@@ -259,6 +277,7 @@ Eine Single Page Application ist eine Web-Anwendung, die in einem Webbrowser arb
 [See more...](https://www.sana-commerce.com/de/ecommerce-erklaert/was-ist-eine-single-page-application/)
 
 ---
+
 [Go Up](#programmierdefinitionen)
 
 ## _DOM_
@@ -279,6 +298,7 @@ document.getElementById("");
 document.querySelector("");
 document.createElement("");
 ```
+
 ---
 
 [Go Up](#programmierdefinitionen)
@@ -302,6 +322,7 @@ window.location;
 window.alert;
 window.prompt;
 ```
+
 ---
 
 [Go Up](#programmierdefinitionen)
@@ -331,12 +352,14 @@ setTimeout(() => {
 
 console.log("two");
 
-one
-two
-three
-four
+one;
+two;
+three;
+four;
 ```
+
 ---
+
 [Go Up](#programmierdefinitionen)
 
 ## _Callback Hell / Pyramid of Doom_
@@ -355,31 +378,41 @@ Eine Anleitung zum Schreiben asynchroner JavaScript-Programme.
 // Callback Hell example
 fs.readdir(source, function (err, files) {
   if (err) {
-    console.log('Error finding files: ' + err)
+    console.log("Error finding files: " + err);
   } else {
     files.forEach(function (filename, fileIndex) {
-      console.log(filename)
+      console.log(filename);
       gm(source + filename).size(function (err, values) {
         if (err) {
-          console.log('Error identifying file size: ' + err)
+          console.log("Error identifying file size: " + err);
         } else {
-          console.log(filename + ' : ' + values)
-          aspect = (values.width / values.height)
-          widths.forEach(function (width, widthIndex) {
-            height = Math.round(width / aspect)
-            console.log('resizing ' + filename + 'to ' + height + 'x' + height)
-            this.resize(width, height).write(dest + 'w' + width + '_' + filename, function(err) {
-              if (err) console.log('Error writing file: ' + err)
-            })
-          }.bind(this))
+          console.log(filename + " : " + values);
+          aspect = values.width / values.height;
+          widths.forEach(
+            function (width, widthIndex) {
+              height = Math.round(width / aspect);
+              console.log(
+                "resizing " + filename + "to " + height + "x" + height
+              );
+              this.resize(width, height).write(
+                dest + "w" + width + "_" + filename,
+                function (err) {
+                  if (err) console.log("Error writing file: " + err);
+                }
+              );
+            }.bind(this)
+          );
         }
-      })
-    })
+      });
+    });
   }
-})
+});
 ```
+
 ---
+
 [Go Up](#programmierdefinitionen)
+
 ## _API_
 
 ### EN
@@ -404,6 +437,7 @@ async function getData() {
   console.log(data);
 }
 ```
+
 ---
 
 [Go Up](#programmierdefinitionen)
@@ -426,11 +460,10 @@ data.open("GET", "url", true);
 data.send();
 console.log(data);
 ```
+
 ---
 
 [Go Up](#programmierdefinitionen)
-
-
 
 ## _JSON_
 
@@ -456,6 +489,7 @@ Die Abkürzung JSON steht für JavaScript Object Notation. Dabei handelt es sich
   "null": null
 }
 ```
+
 ---
 
 [Go Up](#programmierdefinitionen)
@@ -487,10 +521,10 @@ npm run build  //or
 npm run watch
 
 ```
+
 ---
+
 [Go Up](#programmierdefinitionen)
-
-
 
 ## _React_
 
@@ -548,6 +582,7 @@ const user = {
 
 const element = <h1>Hallo {formatName(user)}!</h1>;
 ```
+
 ---
 
 [Go Up](#programmierdefinitionen)
@@ -584,4 +619,3 @@ Komponenten erlauben dir deine Benutzeroberfläche in unabhängige, wiederverwen
 ---
 
 [Go Up](#programmierdefinitionen)
-
