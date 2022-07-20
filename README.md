@@ -2,12 +2,12 @@
 
 ## Content/Inhalt
 
-| Module                        | Topic                    |                    |                 |                                                                             |                                                            |             |               |               |                     |                 |             |             |                             |                           |
-| ----------------------------- | ------------------------ | ------------------ | --------------- | --------------------------------------------------------------------------- | ---------------------------------------------------------- | ----------- | ------------- | ------------- | ------------------- | --------------- | ----------- | ----------- | --------------------------- | ------------------------- |
+| Module                        | Topic                    |                    |                 |                                                                             |                                                            |             |               |               |                     |                 |             |             |                             |                           |                 |                                                                  |                                                                                                                     |
+| ----------------------------- | ------------------------ | ------------------ | --------------- | --------------------------------------------------------------------------- | ---------------------------------------------------------- | ----------- | ------------- | ------------- | ------------------- | --------------- | ----------- | ----------- | --------------------------- | ------------------------- | --------------- | ---------------------------------------------------------------- | ------------------------------------------------------------------------------------------------------------------- |
 | BDL (Basic Digital Literacy)  | [Terminal](#terminal)    | [Node.js](#nodejs) | [Bun](#bun)     |                                                                             |                                                            |             |               |               |                     |                 |             |             |                             |                           |
 | UIB (User Interface Basics)   | [HTML](#html)            | [CSS](#css)        |                 |                                                                             |                                                            |             |               |               |                     |                 |             |             |                             |                           |
 | PB (Programming Basic)        | [JavaScrpt](#javascript) | [OOP](#oop)        | [RegEx](#regex) | [Call stack (Lifo)](#call-stack-lifo)                                       | [Nativ and Host objects](#host-objects-and-native-objects) |             |               |               |                     |                 |             |             |                             |                           |
-| SPA (Single Page Application) | [SPA](#spa)              | [DOM](#dom)        | [BOM](#bom)     | [Callback Queue and Event Loop (Fifo)](#callback-queue-and-event-loop-fifo) | [Callback Hell](#callback-hell--pyramid-of-doom)           | [API](#api) | [AJAX](#ajax) | [JSON](#json) | [Webpack](#webpack) | [React](#react) | [XML](#xml) | [JSX](#jsx) | [Virtual DOM](#virtual-dom) | [Components](#components) |
+| SPA (Single Page Application) | [SPA](#spa)              | [DOM](#dom)        | [BOM](#bom)     | [Callback Queue and Event Loop (Fifo)](#callback-queue-and-event-loop-fifo) | [Callback Hell](#callback-hell--pyramid-of-doom)           | [API](#api) | [AJAX](#ajax) | [JSON](#json) | [Webpack](#webpack) | [React](#react) | [XML](#xml) | [JSX](#jsx) | [Virtual DOM](#virtual-dom) | [Components](#components) | [Hooks](#hooks) | [Fun vs Class](#react-functional-components-or-class-components) | [Convert a React Class Component to a Function Component](#convert-a-react-class-component-to-a-function-component) |
 | Backend                       |                          |                    |                 |                                                                             |                                                            |             |               |               |                     |                 |             |             |                             |                           |
 
 **Description**
@@ -615,6 +615,52 @@ Components are independent and reusable bits of code. They serve the same purpos
 
 Komponenten erlauben dir deine Benutzeroberfläche in unabhängige, wiederverwendbare Teile aufzubrechen und jeden als isoliert zu betrachten.
 [See more...](https://de.reactjs.org/docs/components-and-props.html)
+
+---
+
+[Go Up](#programmierdefinitionen)
+
+## _Hooks_
+
+### EN
+
+Hooks are a new addition in React 16.8. They let you use state and other React features without writing a class.
+
+[See more...](https://reactjs.org/docs/hooks-overview.html)
+
+### DE
+
+Hooks sind ein neues Feature in React 16.8. Damit lassen sich State und andere React Features nutzen, ohne dass eine Klasse geschrieben werden muss.
+[See more...](https://de.reactjs.org/docs/hooks-intro.html)
+
+---
+
+[Go Up](#programmierdefinitionen)
+
+## _React functional components or class components_
+
+### EN
+
+There are two types of components used in React development: class and functional. Both types of components have different use cases and benefits. The functional components are stateless and the class components are stateful. They also differ in syntax.
+
+[See more...](https://flatlogic.com/blog/functional-components-vs-class-components-in-react-js/)
+
+### DE
+
+Bei der React Entwicklung kommen zwei Arten von Komponenten zum Einsatz: Klass- und Funktional. Beide Arten von Komponenten haben unterschiedliche Anwendungsfälle und Vorteile. Dabei sind Funktionskomponenten statusfrei und die Klassen-Komponenten zustandsbehaftet. Außerdem unterscheiden sie sich in Syntax.
+[See more...](https://chudovo.de/wie-unterscheidet-man-react-funktionskomponenten-von-klassen-komponenten/)
+
+---
+
+[Go Up](#programmierdefinitionen)
+
+## _Convert a React Class Component to a Function Component_
+
+### EN
+
+Since the React 16.8 update which added hooks to function components, you might have seen function components replacing class components everywhere.
+
+[See more...](https://nimblewebdeveloper.com/blog/convert-react-class-to-function-component)
 
 ---
 
