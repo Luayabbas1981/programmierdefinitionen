@@ -1,4 +1,4 @@
-# Programmierdefinitionen
+# Softwaredefinitionen
 
 ## Content/Inhalt
 
