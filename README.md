@@ -5,7 +5,7 @@
 | Module                        | Topic                    |                    |                 |                                                                             |                                                            |             |               |               |                     |                 |             |             |                             |                           |                 |                                                                  |                                                                                                                     |
 | ----------------------------- | ------------------------ | ------------------ | --------------- | --------------------------------------------------------------------------- | ---------------------------------------------------------- | ----------- | ------------- | ------------- | ------------------- | --------------- | ----------- | ----------- | --------------------------- | ------------------------- | --------------- | ---------------------------------------------------------------- | ------------------------------------------------------------------------------------------------------------------- |
 | BDL (Basic Digital Literacy)  | [Terminal](#terminal)    | [Node.js](#nodejs) | [Bun](#bun)     |                                                                             |                                                            |             |               |               |                     |                 |             |             |                             |                           |
-| UIB (User Interface Basics)   | [HTML](#html)            | [CSS](#css)        |                 |                                                                             |                                                            |             |               |               |                     |                 |             |             |                             |                           |
+| UIB (User Interface Basics)   | [HTML](#html)            | [CSS](#css)        |    [Scss](#scss)            |    [Sass](#sass)                      |       [Bootstrap](#bootstrap) |                                        |                                                            |             |               |               |                     |                 |             |             |                             |                           |
 | PB (Programming Basic)        | [JavaScrpt](#javascript) | [OOP](#oop)        | [RegEx](#regex) | [Call stack (Lifo)](#call-stack-lifo)                                       | [Nativ and Host objects](#host-objects-and-native-objects) |             |               |               |                     |                 |             |             |                             |                           |
 | SPA (Single Page Application) | [SPA](#spa)              | [DOM](#dom)        | [BOM](#bom)     | [Callback Queue and Event Loop (Fifo)](#callback-queue-and-event-loop-fifo) | [Callback Hell](#callback-hell--pyramid-of-doom)           | [API](#api) | [AJAX](#ajax) | [JSON](#json) | [Webpack](#webpack) | [React](#react) | [XML](#xml) | [JSX](#jsx) | [Virtual DOM](#virtual-dom) | [Components](#components) | [Hooks](#hooks) | [Fun vs Class](#react-functional-components-or-class-components) | [Convert a React Class Component to a Function Component](#convert-a-react-class-component-to-a-function-component) |
 | Backend                       |                          |                    |                 |                                                                             |                                                            |             |               |               |                     |                 |             |             |                             |                           |
@@ -141,6 +141,84 @@ curl https://bun.sh/install | bash
 
 [Go Up](#programmierdefinitionen)
 
+## _SCSS_
+
+### EN
+
+- SCSS stands for Sassy Cascading Style Sheets or Sassy CSS. It is a superset of the CSS language that allows web designers more freedom and control when designing web designs by adding new features to CSS. Hampton Catlin developed it, and Chris Eppstein and Natalie Weizenbaum came up with the idea.
+ [See more...](https://sass-lang.com/)
+## DE
+- Sass ist wohl die nützlichste aller CSS-Erweiterungen. Sass (Syntactically Awesome Style Sheets) ist eine Erweiterung von CSS, die es Dir ermöglicht, Dinge wie Variablen, verschachtelte Regeln, Inline-Importe und mehr zu verwenden. Sass hilft Dir auch, die Dinge zu organisieren, und ermöglicht es Dir, Stylesheets insgesamt schneller zu erstellen.
+ [See more...](https://it-talents.de/it-wissen/programmieren/sass/)
+
+ ```bash
+   $font-stack: Helvetica, sans-serif;
+   $primary-color: #333;
+
+body {
+  font: 100% $font-stack;
+  color: $primary-color;
+}
+  ```
+
+---
+[Go Up](#programmierdefinitionen)
+
+## _Sass_
+
+### EN
+
+- SASS is used when we need an original syntax, code syntax is not required for SCSS. SASS follows strict indentation, SCSS has no strict indentation. SASS has a loose syntax with white space and no semicolons, the SCSS resembles more to CSS style and use of semicolons and braces are mandatory.
+ [See more...](https://sass-lang.com/)
+## DE
+- Die Funktionen von SCSS und SASS sind genau dieselben, jedoch ist die Syntax anders. Bei SASS werden keine Klammern und Semikolons geschrieben, bei SCSS hingegen schon. Darum ähnelt SCSS aus mehr dem normalen CSS und ist deutlich übersichtlicher.
+ [See more...](https://dev-supp.de/blog/sass-vs-scss-vs-less)
+
+ ```bash
+   $font-stack: Helvetica, sans-serif
+$primary-color: #333
+
+body
+  font: 100% $font-stack
+  color: $primary-color
+  ```
+
+---
+[Go Up](#programmierdefinitionen)
+
+## _Bootstrap_
+
+### EN
+
+- 
+Bootstrap is a free, open source front-end development framework for the creation of websites and web apps. Designed to enable responsive development of mobile-first websites, Bootstrap provides a collection of syntax for template designs.
+ [See more...](https://www.techtarget.com/whatis/definition/bootstrap)
+## DE
+- 
+Bootstrap ist ein Frontend-Framework, mit dessen Hilfe Webentwickler geräteübergreifende Websites verschiedenster Art erstellen können. Zu diesem Zweck bietet das Open-Source-Projekt diverse Gestaltungsvorlagen, die auf HTML und CSS basieren, sowie optionale JavaScript-Erweiterungen.
+ [See more...](https://www.wilde-it.com/bootstrap/?gad=1&gclid=CjwKCAjwzo2mBhAUEiwAf7wjkuy15dXwsLJOfnkRt0cVm03FmCBKc7JpT9gBV0T7KZqhs6YODW2M2RoCCmMQAvD_BwE)
+
+ ```bash
+<html>
+<head>
+.
+.
+</head>
+<body>
+<h1 class="text-center fw-bold"></h1>
+<div class="container">
+<div class="row">
+<div class="col-3 col-lg-4" ></div>
+</div>
+</div>
+.
+.
+</body>
+</html>
+```
+
+---
+[Go Up](#programmierdefinitionen)
 ## _Javascript_
 
 ### EN
